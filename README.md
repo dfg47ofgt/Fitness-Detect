@@ -28,10 +28,11 @@ blazePose模型為一款人體姿勢感測方法，是利用機器學習推測�
 
 ## Demo
 運動姿態辨識
-https://github.com/dfg47ofgt/fitness-detect/assets/79782178/927cf344-2c50-4af2-96d6-d881d6e72994
+![1_AdobeExpress](https://github.com/dfg47ofgt/fitness-detect/assets/79782178/84270300-9a8c-4255-a8a6-19fe3762c578)
 
 健身挑戰小遊戲
-https://github.com/dfg47ofgt/fitness-detect/assets/79782178/fab6793d-6f81-4c0d-99d8-3c0a850c35fb
+
+
 
 
 
