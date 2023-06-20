@@ -1,0 +1,2989 @@
+
+/* 直式*/
+/* 如果使用者視窗寬度 <= 768px */
+@media screen and (max-width: 768px) {
+	.mediaViewInfo {
+		--web-view-name: Bmr;
+		--web-view-id: Bmr;
+		--web-scale-to-fit: true;
+		--web-scale-to-fit-type: fit;
+		--web-scale-on-resize: true;
+		--web-center-horizontally: true;
+		--web-center-vertically: true;
+		--web-enable-deep-linking: true;
+	}
+	:root {
+		--web-view-ids: Bmr;
+	}
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		border: none;
+	}
+	#Bmr {
+		position: static;
+		width: 100vw;
+		height: 100vh;
+		background-color: rgba(255,255,255,1);
+		overflow: hidden;
+		--web-view-name: Bmr;
+		--web-view-id: Bmr;
+		--web-scale-to-fit: true;
+		--web-scale-to-fit-type: fit;
+		--web-scale-on-resize: true;
+		--web-center-horizontally: true;
+		--web-center-vertically: true;
+		--web-enable-deep-linking: true;
+	}
+
+
+	#box{
+		position: absolute;
+        width: 350px;
+        height: 555px;
+        display: flex; 
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        align-content: space-around;
+        justify-content: space-around;
+        /*  置中 */
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%) ;
+		background-color: rgba(0, 0, 0, 0.8);
+        border: 0px solid rgb(133, 133, 133);
+        border-radius: 10px;
+    }
+	#background{
+        position: absolute;
+        width: 100vw;
+        height: 100vh;
+        overflow: visible;
+        background: url("../picture/frbackground.jpg");
+		opacity:0.6;
+        background-position: center center;
+        background-size:cover;
+    }
+
+
+
+	@keyframes fadein {
+
+		0% {
+			opacity: 0;
+		}
+		100% {
+			opacity: 1;
+		}
+
+	}
+	#chevron-compact-left_b {
+		position: absolute;
+		width: 10px;
+		height: 20px;
+		left: 24.74px;
+		top: 70px;
+		overflow: visible;
+		--web-animation: fadein 0.3s ease-out;
+		--web-action-type: page;
+		--web-action-target: tool.html;
+		cursor: pointer;
+
+	}
+	#_24_b {
+		fill: rgba(0,0,0,1);
+	}
+	._24_b {
+		overflow: visible;
+		position: absolute; /*改*/
+		width: 10px;
+		height: 20px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+		
+	}
+	#title {
+		left: 80px; /*改*/
+		top: 62px;
+		position: absolute;
+		overflow: visible;
+		width: 190px;
+		white-space: nowrap;
+		line-height: 30px;
+		margin-top: -2.5px;
+		text-align: center;
+		font-family: Noto Sans TC;;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 25px;
+		color: rgba(255,255,255,1);
+		
+	}
+	#_5_b {
+		fill: transparent;
+		stroke: rgba(255,255,255,1);;
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+
+	}
+	._5_b {
+		overflow: visible;
+		position: relative; /*改*/
+		width: 336.006px;
+		height: 3px;
+		left: 10px;
+		top: 105px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#_ca {
+		position: absolute;
+		width: 294px;
+		height: 39px;
+		left: 41px;
+		top: 126px;
+		overflow: visible;
+	}
+	#_12_b {
+		opacity: 0.805;
+		fill: transparent;
+		stroke: rgb(255, 255, 255);
+		stroke-width: 1px;
+		stroke-linejoin: round;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	._12_b {
+		position: absolute;
+		overflow: visible;
+		width: 294px;
+		height: 39px;
+		left: 0px;
+		top: 0px;
+	}
+	#_cb {
+		opacity: 0.804;
+		left: 12px;
+		top: 8px;
+		position: absolute;
+		overflow: visible;
+		width: 31px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Noto Sans TC;;
+		font-style: normal;
+		font-weight: lighter;
+		font-size: 15px;
+		color: rgba(255, 255, 255);
+	}
+	#_cc {
+		position: absolute;
+		width: 294px;
+		height: 39px;
+		left: 41px;
+		top: 178px;
+		overflow: visible;
+	}
+	/* #_12_ca {
+		opacity: 0.805;
+		fill: transparent;
+		stroke: rgba(0,0,0,1);
+		stroke-width: 1px;
+		stroke-linejoin: round;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto; */
+	
+	._12_ca {
+		position: absolute;
+		overflow: visible;
+		width: 294px;
+		height: 39px;
+		left: 0px;
+		top: 0px;
+	}
+	#_cd {
+		opacity: 0.804;
+		left: 12px;
+		top: 8px;
+		position: absolute;
+		overflow: visible;
+		width: 31px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Noto Sans TC;;
+		font-style: normal;
+		font-weight: lighter;
+		font-size: 15px;
+		color: rgba(255, 255, 255);
+	}
+	#_27_cb {   /*計算的框框*/
+		position: absolute;
+		width: 294px;
+		height: 43px;
+		left: 30px;
+		top: 493px;
+		overflow: visible;
+		opacity: 0.998;
+		fill: rgba(255,235,71,1);
+		cursor: pointer;
+		
+	}
+	._27_cb {   /*計算的框框*/
+		width: 294px;
+		height: 43px;	
+	}
+
+	._42_cc {
+		filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+		position: absolute;
+		overflow: visible;
+		width: 312px;
+		height: 61px;
+		left: 0px;
+		top: 0px;
+	}
+	#_ce {
+		opacity: 0.804;
+        left: 132px;
+        top: 8px;
+        position: absolute;
+        overflow: visible;
+        width: 31px;
+        white-space: nowrap;
+        text-align: center;
+        font-family: Noto Sans TC;;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        color: rgba(0,0,0,1);
+	}
+	#_cf {
+		opacity: 0.996;
+		left: 34px;
+		top: 444px;
+		position: absolute; /* 基本代謝率為人體一天至少消耗的熱量，此數值會依年紀、性別、肌肉量而有所差異。此計算為基本數值計算，仍需依專業射量機器計算為準。 */
+		width: 290px;
+		height: 45px;
+		line-height: 15px;
+		text-align: left;
+		word-wrap: break-word;
+		font-family: Noto Sans TC;;
+		font-size: 10px;
+		color: rgba(181,181,181,1);
+		letter-spacing: 0.3px;
+	}
+	#_28 {
+		position: absolute;
+		width: 294px;
+		height: 39px;
+		left: 30px;
+		top: 386px;
+		overflow: visible;
+		/* background-color: blue; */
+	}
+	#_cg {
+		position: relative;
+		width: 288px;
+		height: 39px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+		/* background-color: cadetblue; */
+	}
+	#_12_ch {  /*每日總熱量消耗*/
+		opacity: 0.805;
+		fill: transparent;
+		stroke: rgba(255, 255, 255);
+		stroke-width: 1px;
+		stroke-linejoin: round;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto; 
+
+	}
+	._12_ch {
+		position: absolute; 
+		overflow: visible;
+		width: 198px; 
+		height: 39px; 
+		left: 79px;
+		top: 0px;
+		/* background-color: crimson; */
+	}
+	#_ci {  /*每日總熱量消耗的字*/
+		opacity: 0.804;
+		left: 5px;
+		top: 9px;
+		position: absolute;
+		overflow: visible;
+		width: 91px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Noto Sans TC;;
+		font-style: normal;
+		font-weight: lighter;
+		font-size: 15px;
+		color: rgba(255, 255, 255);
+	}
+	#kgm2_cj {
+		opacity: 0.996;
+		left: 247px;
+		top: 12px;
+		position: absolute;
+		overflow: visible;
+		width: 33px;
+		white-space: nowrap;
+		line-height: 15px;
+		margin-top: -2.5px;
+		text-align: left;
+		font-family: Noto Sans TC;;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 10px;
+		color: rgba(181,181,181,1);
+		letter-spacing: 0.3px;
+	}
+	#_ck {
+		position: absolute;
+		width: 294px;
+		height: 39px;
+		left: 41px;
+		top: 230px;
+		overflow: visible;
+	}
+	/* #_12_cl {
+		opacity: 0.805;
+		fill: transparent;
+		stroke: rgba(0,0,0,1);
+		stroke-width: 1px;
+		stroke-linejoin: round;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto; 
+	}*/
+	._12_cl {
+		position: absolute;
+		overflow: visible;
+		width: 294px;
+		height: 39px;
+		left: 0px;
+		top: 0px;
+	}
+	#_cm {
+		opacity: 0.804;
+		left: 12px;
+		top: 8px;
+		position: absolute;
+		overflow: visible;
+		width: 31px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Noto Sans TC;;
+		font-style: normal;
+		font-weight: lighter;
+		font-size: 15px;
+		color: rgba(255, 255, 255);
+	}
+	#_cn {
+		position: absolute; /*不能改*/
+		width: 294px;
+		height: 39px;
+		left: 41px;
+		top: 282px;
+		overflow: visible;
+	}
+	/* #_12_co {
+		opacity: 0.805;
+		fill: transparent;
+		stroke: rgba(0,0,0,1);
+		stroke-width: 1px;
+		stroke-linejoin: round;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto; 
+	}*/
+	._12_co { 
+		position: absolute; /*不能改*/
+		overflow: visible;
+		width: 294px;
+		height: 39px;
+		left: 0px;
+		top: 0px;
+	}
+	#activity {
+		opacity: 0.804;
+		left: 12px;
+		position: absolute; /*不能改*/
+		overflow: visible;
+		width: 91px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Noto Sans TC;;
+		font-style: normal;
+		font-weight: lighter;
+		font-size: 15px;
+		color: rgba(255, 255, 255); 
+	}
+	#_cq {
+		position: absolute; /*不能改*/
+		width: 294px;
+		height: 39px;
+		left: 41px;
+		top: 334px;
+		overflow: visible;
+	}
+	#_12_cr {
+		opacity: 0.805;
+		fill: transparent;
+		stroke: rgba(255, 255, 255);
+		stroke-width: 1px;
+		stroke-linejoin: round;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	._12_cr {
+		position: absolute;
+		overflow: visible;
+		width: 294px;
+		height: 39px;
+		left: 0px;
+		top: 0px;
+	}
+	#gender {
+		opacity: 0.804;
+		left: 12px;
+		/* top: 8px; */
+		position: absolute;
+		overflow: visible;
+		width: 31px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Noto Sans TC;;
+		font-style: normal;
+		font-weight: lighter;
+		font-size: 15px;
+		color: rgba(255, 255, 255);
+	}
+	.unitcomment { 
+		opacity: 0.996;
+		left: 250px;
+		top: 33%;
+		position: absolute; 
+		overflow: visible;
+		line-height: 15px;
+		text-align: right;
+		font-family: Noto Sans TC;;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 10px;
+		color: rgba(181,181,181,1);
+		letter-spacing: 0.3px;
+	}
+	#_cu {
+		opacity: 0.996;
+		left: 303px;
+		top: 190px;
+		position: absolute;
+		overflow: visible;
+		width: 21px;
+		white-space: nowrap;
+		line-height: 15px;
+		margin-top: -2.5px;
+		text-align: right;
+		font-family: Noto Sans TC;;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 10px;
+		color: rgba(181,181,181,1);
+		letter-spacing: 0.3px;
+	}
+	.mediaViewInfo {
+		--web-view-name: BMI;
+		--web-view-id: BMI;
+		--web-scale-on-resize: true;
+		--web-enable-deep-linking: true;
+	}
+	:root {
+		--web-view-ids: BMI;
+	}
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		border: none;
+	}
+	#BMI {
+		position: static;
+		width: 375px;
+		height: 812px;
+		background-color: rgba(255,255,255,1);
+		overflow: hidden;
+		--web-view-name: BMI;
+		--web-view-id: BMI;
+		--web-scale-on-resize: true;
+		--web-enable-deep-linking: true;
+	}
+	@keyframes fadein {
+
+		0% {
+			opacity: 0;
+		}
+		100% {
+			opacity: 1;
+		}
+
+	}
+	#chevron-compact-left_bi {
+		position: absolute;
+		width: 10px;
+		height: 20px;
+		left: 24.74px;
+		top: 70px;
+		overflow: visible;
+		--web-animation: fadein 0.3s ease-out;
+		--web-action-type: page;
+		--web-action-target: tool.html;
+		cursor: pointer;
+	}
+	#_24_bj {
+		fill: rgba(0,0,0,1);
+	}
+	._24_bj {
+		overflow: visible;
+		position: absolute;
+		width: 10px;
+		height: 20px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#_5_bl {
+		fill: transparent;
+		stroke: rgba(255,255,255,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	._5_bl {
+		overflow: visible;
+		position: absolute;
+		width: 336px;
+		height: 3px;
+		left: 8px;
+		top: 105px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#_bm {
+		position: absolute;
+		width: 294px;
+		height: 39px;
+		left: 41px;
+		top: 126px;
+		overflow: visible;
+	}
+	#_12 {
+		opacity: 0.805;
+		fill: transparent;
+		stroke: rgba(0,0,0,1);
+		stroke-width: 1px;
+		stroke-linejoin: round;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	._12 {
+		position: absolute;
+		overflow: visible;
+		width: 294px;
+		height: 39px;
+		left: 0px;
+		top: 0px;
+	}
+	#_bp {
+		position: absolute;
+		width: 294px;
+		height: 39px;
+		left: 41px;
+		top: 178px;
+		overflow: visible;
+	}
+	#_12_bq {
+		opacity: 0.805;
+		fill: transparent;
+		stroke: rgba(0,0,0,1);
+		stroke-width: 1px;
+		stroke-linejoin: round;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	/* ._12_bq {
+		position: absolute;
+		overflow: visible;
+		width: 294px;
+		height: 39px;
+		left: 0px;
+		top: 0px;
+	} */
+	#_27 {  /*bmi的計算按鈕*/
+		position: absolute;
+		width: 294px;
+		height: 43px;
+		left: 30px;
+		top: 493px;
+		overflow: visible;
+	}
+	#_42 {
+		fill: rgba(255,255,255,1);
+	}
+	._42 {
+		filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+		position: absolute;
+		overflow: visible;
+		width: 312px;
+		height: 61px;
+		left: 0px;
+		top: 0px;
+	}
+	#okbutton {
+		left: 127px;
+		top: 10px;
+		position: absolute;
+		overflow: visible;
+		width: 41px;
+		white-space: nowrap;
+		line-height: 30px;
+		margin-top: -5px;
+		text-align: center;
+		font-family: Noto Sans TC;;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(0,0,0,1);
+	}
+	#BMIcommend {
+		opacity: 0.996;
+		left: 44px;
+		top: 288px;
+		position: absolute;
+		overflow: hidden;
+		width: 294px;
+		height: auto;
+		line-height: 15px;
+		margin-top: -2.5px;
+		text-align: left;
+		font-family: Noto Sans TC;;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 10px;
+		color: rgba(181,181,181,1) ;
+		letter-spacing: 0.3px;
+	}
+	#_12_bw {
+		opacity: 0.805;
+		fill: transparent;
+		stroke: rgb(0, 0, 0);
+		stroke-width: 1px;
+		stroke-linejoin: round;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	._12_bw {
+		position: absolute;
+		overflow: visible;
+		width: 247px;
+		height: 39px;
+
+	}
+	#BMI_bx {
+		opacity: 0.804;
+		left: 44px;
+		top: 239px;
+		position: absolute;
+		overflow: visible;
+		width: 42px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Noto Sans TC;;
+		font-style: normal;
+		font-weight: lighter;
+		font-size: 15px;
+		color: rgba(255,255,255,1);
+	}
+	#kgm2 {
+		opacity: 0.996;
+		left: 294px;
+		top: 242px;
+		position: absolute;
+		overflow: visible;
+		width: 33px;
+		white-space: nowrap;
+		line-height: 15px;
+		margin-top: -2.5px;
+		text-align: left;
+		font-family: Noto Sans TC;;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 10px;
+		color: rgba(181,181,181,1);
+		letter-spacing: 0.3px;
+	}
+	.mediaViewInfo {
+		--web-view-name: tool;
+		--web-view-id: tool;
+		--web-scale-on-resize: true;
+		--web-center-horizontally: true;
+		--web-center-vertically: true;
+		--web-enable-deep-linking: true;
+	}
+	:root {
+		--web-view-ids: tool;
+	}
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		border: none;
+	}
+	#tool {
+		position: static;
+		width: 375px;
+		height: 812px;
+		background-color: rgba(255,255,255,1);
+		overflow: hidden;
+		--web-view-name: tool;
+		--web-view-id: tool;
+		--web-scale-on-resize: true;
+		--web-center-horizontally: true;
+		--web-center-vertically: true;
+		--web-enable-deep-linking: true;
+	}
+	@keyframes fadein {
+	
+		0% {
+			opacity: 0;
+		}
+		100% {
+			opacity: 1;
+		}
+	
+	}
+	#chevron-compact-left {
+		position: absolute;
+		width: 10px;
+		height: 20px;
+		left: 24.74px;
+		top: 70px;
+		overflow: visible;
+		--web-animation: fadein 0.3s ease-out;
+		--web-action-type: page;
+		--web-action-target: HM.html;
+		cursor: pointer;
+	}
+	#_24 {
+		fill: rgba(0,0,0,1);
+	}
+	._24 {
+		overflow: visible;
+		position: absolute;
+		width: 10px;
+		height: 20px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	/* #_5 {
+		fill: transparent;
+		stroke: rgba(0,0,0,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	._5 {
+		overflow: visible;
+		position: absolute;
+		width: 336.006px;
+		height: 3px;
+		left: 20px;
+		top: 105px;
+		transform: matrix(1,0,0,1,0,0);
+	} */
+	#_ {
+		position: absolute;
+		width: 340px;
+		height: 59px;
+		left: 5px;
+		top: 140px;
+		overflow: visible;
+		--web-animation: fadein 0.3s ease-out;
+		--web-action-type: page;
+		--web-action-target: BMI.html;
+		cursor: pointer;
+		background-color: rgba(73, 73, 73, 0.274);
+		border-radius: 6px;
+	}
+	#_8__2 {
+		position: absolute;
+		width: 350px;
+		height: 59px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	/* #barbutton {
+		fill: rgba(255,255,255,1);
+	} */
+	.barbutton {
+		filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+		fill: rgba(0, 0, 0, 0);
+		position: relative;
+		overflow: visible;
+		width: 350px;
+		height: 77px;
+		left: 0px;
+		top: 0px; 
+	}
+	#stitle {
+		left: 30px;
+		top: 2px;
+		position: absolute;
+		overflow: visible;
+		width: 75px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Noto Sans TC;;
+		font-style: normal;
+		font-weight: lighter;
+		font-size: 20px;
+		color: rgb(255, 255, 255);
+	}
+	#comment {
+		left: 30px;
+		top: 31px;
+		position: absolute;
+		overflow: visible;
+		width: 151px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Noto Sans TC;;
+		font-style: normal;
+		font-weight: lighter;
+		font-size: 15px;
+		color: rgba(116,115,115,1);
+	}
+	#arrow {
+		position: absolute;
+		width: 154px;
+		height: 15px;
+		left: 250px;
+		top: 21px;
+		z-index:1;
+		overflow: visible;
+	}
+	#backarrow {
+		position: absolute;
+		width: 154px;
+		height: 15px;
+		left: 263px;
+		top: 21px;
+		overflow: visible;
+		z-index:1;
+	}
+	#_33_ {
+		position: absolute;
+		width: 340px;
+		height: 59px;
+		left: 5px;
+		top: 211px;
+		overflow: visible;
+		--web-animation: fadein 0.3s ease-out;
+		--web-action-type: page;
+		--web-action-target: Dmr.html;
+		cursor: pointer;
+		background-color: rgba(73, 73, 73, 0.274);
+		border-radius: 6px;
+	}
+	#_bb {
+		position: absolute;
+		width: 417px;
+		height: 59px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+
+	}
+	#_8__2_bb {
+		position: absolute;
+		width: 375px;
+		height: 59px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#textstyle{
+		position: absolute; 
+		overflow: visible;
+		width: 294px;
+		height: 39px;
+	}
+	.input {
+		position: absolute;
+		overflow: visible;
+		height: 39px;
+		top: 0px; 
+		left: 42%; 
+		width: 100px;
+		background-color:transparent;
+		-webkit-text-fill-color: #ffffff;
+		opacity: 0.804;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Noto Sans TC;;
+		font-size: 15px;
+		font-weight: normal;
+		color: rgba(255, 255, 255);
+		line-height: 39px;
+	}
+	.inputtitle {  
+		position: absolute;
+		overflow: visible;
+		width: fit-content;
+		height: 39px;
+		left: 5px;
+		top: 0px; 
+		background-color:transparent;
+		-webkit-text-fill-color: #fffdfd;
+		opacity: 0.804;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Noto Sans TC;;
+		font-size: 15px;
+		font-weight: lighter;
+		color: rgba(255, 255, 255);
+		line-height: 39px;
+	}
+	#textframe {
+		opacity: 0.805;
+		fill: transparent;
+		stroke:rgba(255,255,255,1);;
+		stroke-width: 1px;
+		stroke-linejoin: round;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.textframe {
+		position: absolute;
+		overflow: visible;
+		width: 141px;
+		height: 39px;
+		left: -12px;
+		top: 0px;
+	}
+}
+
+/* 直式 */
+/* 如果使用者視窗寬度介於 768px ~ 1024px */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+	.mediaViewInfo {
+		--web-view-name: Bmr;
+		--web-view-id: Bmr;
+		--web-scale-to-fit: true;
+		--web-scale-to-fit-type: fit;
+		--web-scale-on-resize: true;
+		--web-center-horizontally: true;
+		--web-center-vertically: true;
+		--web-enable-deep-linking: true;
+	}
+	:root {
+		--web-view-ids: Bmr;
+	}
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		border: none;
+	}
+	#Bmr {
+		position: static;
+		width: 100vw;
+		height: 100vh;
+		background-color: rgba(255,255,255,1);
+		overflow: hidden;
+		--web-view-name: Bmr;
+		--web-view-id: Bmr;
+		--web-scale-to-fit: true;
+		--web-scale-to-fit-type: fit;
+		--web-scale-on-resize: true;
+		--web-center-horizontally: true;
+		--web-center-vertically: true;
+		--web-enable-deep-linking: true;
+	}
+	#box{
+		position: absolute;
+        width: 350px;
+        height: 555px;
+        display: flex; 
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        align-content: space-around;
+        justify-content: space-around;
+        /*  置中 */
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%) ;
+		background-color: rgba(0, 0, 0, 0.8);
+        border: 0px solid rgb(133, 133, 133);
+        border-radius: 10px;
+    }
+	#background{
+        position: absolute;
+        width: 100vw;
+        height: 100vh;
+        overflow: visible;
+        background: url("../picture/frbackground.jpg");
+		opacity:0.6;
+        background-position: center center;
+        background-size:cover;
+    }
+
+
+
+	@keyframes fadein {
+
+		0% {
+			opacity: 0;
+		}
+		100% {
+			opacity: 1;
+		}
+
+	}
+	#chevron-compact-left_b {
+		position: absolute;
+		width: 10px;
+		height: 20px;
+		left: 24.74px;
+		top: 70px;
+		overflow: visible;
+		--web-animation: fadein 0.3s ease-out;
+		--web-action-type: page;
+		--web-action-target: tool.html;
+		cursor: pointer;
+
+	}
+	#_24_b {
+		fill: rgba(0,0,0,1);
+	}
+	._24_b {
+		overflow: visible;
+		position: absolute; /*改*/
+		width: 10px;
+		height: 20px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+		
+	}
+	#title {
+		left: 80px; /*改*/
+		top: 62px;
+		position: absolute;
+		overflow: visible;
+		width: 190px;
+		white-space: nowrap;
+		line-height: 30px;
+		margin-top: -2.5px;
+		text-align: center;
+		font-family: Noto Sans TC;;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 25px;
+		color: rgba(255,255,255,1);
+		
+	}
+	#_5_b {
+		fill: transparent;
+		stroke: rgba(255,255,255,1);;
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+
+	}
+	._5_b {
+		overflow: visible;
+		position: relative; /*改*/
+		width: 336.006px;
+		height: 3px;
+		left: 10px;
+		top: 105px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#_ca {
+		position: absolute;
+		width: 294px;
+		height: 39px;
+		left: 41px;
+		top: 126px;
+		overflow: visible;
+	}
+	#_12_b {
+		opacity: 0.805;
+		fill: transparent;
+		stroke: rgb(255, 255, 255);
+		stroke-width: 1px;
+		stroke-linejoin: round;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	._12_b {
+		position: absolute;
+		overflow: visible;
+		width: 294px;
+		height: 39px;
+		left: 0px;
+		top: 0px;
+	}
+	#_cb {
+		opacity: 0.804;
+		left: 12px;
+		top: 8px;
+		position: absolute;
+		overflow: visible;
+		width: 31px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Noto Sans TC;;
+		font-style: normal;
+		font-weight: lighter;
+		font-size: 15px;
+		color: rgba(255, 255, 255);
+	}
+	#_cc {
+		position: absolute;
+		width: 294px;
+		height: 39px;
+		left: 41px;
+		top: 178px;
+		overflow: visible;
+	}
+	/* #_12_ca {
+		opacity: 0.805;
+		fill: transparent;
+		stroke: rgba(0,0,0,1);
+		stroke-width: 1px;
+		stroke-linejoin: round;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto; */
+	
+	._12_ca {
+		position: absolute;
+		overflow: visible;
+		width: 294px;
+		height: 39px;
+		left: 0px;
+		top: 0px;
+	}
+	#_cd {
+		opacity: 0.804;
+		left: 12px;
+		top: 8px;
+		position: absolute;
+		overflow: visible;
+		width: 31px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Noto Sans TC;;
+		font-style: normal;
+		font-weight: lighter;
+		font-size: 15px;
+		color: rgba(255, 255, 255);
+	}
+	#_27_cb {   /*計算的框框*/
+		position: absolute;
+		width: 294px;
+		height: 43px;
+		left: 30px;
+		top: 493px;
+		overflow: visible;
+		opacity: 0.998;
+		fill: rgba(255,235,71,1);
+		cursor: pointer;
+	}
+	._27_cb {   /*計算的框框*/
+		width: 294px;
+		height: 43px;	
+	}
+
+	._42_cc {
+		filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+		position: absolute;
+		overflow: visible;
+		width: 312px;
+		height: 61px;
+		left: 0px;
+		top: 0px;
+	}
+	#_ce {
+		opacity: 0.804;
+        left: 132px;
+        top: 8px;
+        position: absolute;
+        overflow: visible;
+        width: 31px;
+        white-space: nowrap;
+        text-align: center;
+        font-family: Noto Sans TC;;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        color: rgba(0,0,0,1);
+	}
+	#_cf {
+		opacity: 0.996;
+		left: 44px;
+		top: 444px;
+		position: absolute; /* 基本代謝率為人體一天至少消耗的熱量，此數值會依年紀、性別、肌肉量而有所差異。此計算為基本數值計算，仍需依專業射量機器計算為準。 */
+		overflow: visible;
+		width: 289px;
+		height: 45px;
+		line-height: 15px;
+		margin-top: -2.5px;
+		text-align: left;
+		font-family: Noto Sans TC;;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 10px;
+		color: rgba(181,181,181,1);
+		letter-spacing: 0.3px;
+	}
+	#_28 {
+		position: absolute;
+		width: 200px;
+		height: 39px;
+		left: 30px;
+		top: 386px;
+		overflow: visible;
+		/* background-color: blue; */
+	}
+	#_cg {
+		position: relative;
+		width: 288px;
+		height: 39px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+		/* background-color: cadetblue; */
+	}
+	#_12_ch {  /*每日總熱量消耗*/
+		opacity: 0.805;
+		fill: transparent;
+		stroke: rgba(255, 255, 255);
+		stroke-width: 1px;
+		stroke-linejoin: round;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto; 
+
+	}
+	._12_ch {
+		position: absolute; 
+		overflow: visible;
+		width: 198px; 
+		height: 39px; 
+		left: 79px;
+		top: 0px;
+		/* background-color: crimson; */
+	}
+	#_ci {  /*每日總熱量消耗的字*/
+		opacity: 0.804;
+		left: 5px;
+		top: 9px;
+		position: absolute;
+		overflow: visible;
+		width: 91px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Noto Sans TC;;
+		font-style: normal;
+		font-weight: lighter;
+		font-size: 15px;
+		color: rgba(255, 255, 255);
+	}
+	#kgm2_cj {
+		opacity: 0.996;
+		left: 247px;
+		top: 12px;
+		position: absolute;
+		overflow: visible;
+		width: 33px;
+		white-space: nowrap;
+		line-height: 15px;
+		margin-top: -2.5px;
+		text-align: left;
+		font-family: Noto Sans TC;;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 10px;
+		color: rgba(181,181,181,1);
+		letter-spacing: 0.3px;
+	}
+	#_ck {
+		position: absolute;
+		width: 294px;
+		height: 39px;
+		left: 41px;
+		top: 230px;
+		overflow: visible;
+	}
+	/* #_12_cl {
+		opacity: 0.805;
+		fill: transparent;
+		stroke: rgba(0,0,0,1);
+		stroke-width: 1px;
+		stroke-linejoin: round;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto; 
+	}*/
+	._12_cl {
+		position: absolute;
+		overflow: visible;
+		width: 294px;
+		height: 39px;
+		left: 0px;
+		top: 0px;
+	}
+	#_cm {
+		opacity: 0.804;
+		left: 12px;
+		top: 8px;
+		position: absolute;
+		overflow: visible;
+		width: 31px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Noto Sans TC;;
+		font-style: normal;
+		font-weight: lighter;
+		font-size: 15px;
+		color: rgba(255, 255, 255);
+	}
+	#_cn {
+		position: absolute; /*不能改*/
+		width: 294px;
+		height: 39px;
+		left: 41px;
+		top: 282px;
+		overflow: visible;
+	}
+	/* #_12_co {
+		opacity: 0.805;
+		fill: transparent;
+		stroke: rgba(0,0,0,1);
+		stroke-width: 1px;
+		stroke-linejoin: round;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto; 
+	}*/
+	._12_co { 
+		position: absolute; /*不能改*/
+		overflow: visible;
+		width: 294px;
+		height: 39px;
+		left: 0px;
+		top: 0px;
+	}
+	#activity {
+		opacity: 0.804;
+		left: 12px;
+		/* top: 8px; */
+		position: absolute; /*不能改*/
+		overflow: visible;
+		width: 91px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Noto Sans TC;;
+		font-style: normal;
+		font-weight: lighter;
+		font-size: 15px;
+		color: rgba(255, 255, 255); 
+	}
+	#_cq {
+		position: absolute; /*不能改*/
+		width: 294px;
+		height: 39px;
+		left: 41px;
+		top: 334px;
+		overflow: visible;
+	}
+	#_12_cr {
+		opacity: 0.805;
+		fill: transparent;
+		stroke: rgba(255, 255, 255);
+		stroke-width: 1px;
+		stroke-linejoin: round;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	._12_cr {
+		position: absolute;
+		overflow: visible;
+		width: 294px;
+		height: 39px;
+		left: 0px;
+		top: 0px;
+	}
+	#gender {
+		opacity: 0.804;
+		left: 12px;
+		/* top: 8px; */
+		position: absolute;
+		overflow: visible;
+		width: 31px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Noto Sans TC;;
+		font-style: normal;
+		font-weight: lighter;
+		font-size: 15px;
+		color: rgba(255, 255, 255);
+	}
+	.unitcomment { 
+		opacity: 0.996;
+		left: 250px;
+		top: 33%;
+		position: absolute; 
+		overflow: visible;
+		line-height: 15px;
+		text-align: right;
+		font-family: Noto Sans TC;;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 10px;
+		color: rgba(181,181,181,1);
+		letter-spacing: 0.3px;
+	}
+	#_cu {
+		opacity: 0.996;
+		left: 303px;
+		top: 190px;
+		position: absolute;
+		overflow: visible;
+		width: 21px;
+		white-space: nowrap;
+		line-height: 15px;
+		margin-top: -2.5px;
+		text-align: right;
+		font-family: Noto Sans TC;;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 10px;
+		color: rgba(181,181,181,1);
+		letter-spacing: 0.3px;
+	}
+	.mediaViewInfo {
+		--web-view-name: BMI;
+		--web-view-id: BMI;
+		--web-scale-on-resize: true;
+		--web-enable-deep-linking: true;
+	}
+	:root {
+		--web-view-ids: BMI;
+	}
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		border: none;
+	}
+	#BMI {
+		position: static;
+		width: 375px;
+		height: 812px;
+		background-color: rgba(255,255,255,1);
+		overflow: hidden;
+		--web-view-name: BMI;
+		--web-view-id: BMI;
+		--web-scale-on-resize: true;
+		--web-enable-deep-linking: true;
+	}
+	@keyframes fadein {
+
+		0% {
+			opacity: 0;
+		}
+		100% {
+			opacity: 1;
+		}
+
+	}
+	#chevron-compact-left_bi {
+		position: absolute;
+		width: 10px;
+		height: 20px;
+		left: 24.74px;
+		top: 70px;
+		overflow: visible;
+		--web-animation: fadein 0.3s ease-out;
+		--web-action-type: page;
+		--web-action-target: tool.html;
+		cursor: pointer;
+	}
+	#_24_bj {
+		fill: rgba(0,0,0,1);
+	}
+	._24_bj {
+		overflow: visible;
+		position: absolute;
+		width: 10px;
+		height: 20px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#_5_bl {
+		fill: transparent;
+		stroke: rgba(255,255,255,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	._5_bl {
+		overflow: visible;
+		position: absolute;
+		width: 336px;
+		height: 3px;
+		left: 8px;
+		top: 105px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#_bm {
+		position: absolute;
+		width: 294px;
+		height: 39px;
+		left: 41px;
+		top: 126px;
+		overflow: visible;
+	}
+	#_12 {
+		opacity: 0.805;
+		fill: transparent;
+		stroke: rgba(0,0,0,1);
+		stroke-width: 1px;
+		stroke-linejoin: round;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	._12 {
+		position: absolute;
+		overflow: visible;
+		width: 294px;
+		height: 39px;
+		left: 0px;
+		top: 0px;
+	}
+	#_bp {
+		position: absolute;
+		width: 294px;
+		height: 39px;
+		left: 41px;
+		top: 178px;
+		overflow: visible;
+	}
+	#_12_bq {
+		opacity: 0.805;
+		fill: transparent;
+		stroke: rgba(0,0,0,1);
+		stroke-width: 1px;
+		stroke-linejoin: round;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	/* ._12_bq {
+		position: absolute;
+		overflow: visible;
+		width: 294px;
+		height: 39px;
+		left: 0px;
+		top: 0px;
+	} */
+	#_27 {  /*bmi的計算按鈕*/
+		position: absolute;
+		width: 294px;
+		height: 43px;
+		left: 30px;
+		top: 493px;
+		overflow: visible;
+	}
+	#_42 {
+		fill: rgba(255,255,255,1);
+	}
+	._42 {
+		filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+		position: absolute;
+		overflow: visible;
+		width: 312px;
+		height: 61px;
+		left: 0px;
+		top: 0px;
+	}
+	#okbutton {
+		left: 127px;
+		top: 10px;
+		position: absolute;
+		overflow: visible;
+		width: 41px;
+		white-space: nowrap;
+		line-height: 30px;
+		margin-top: -5px;
+		text-align: center;
+		font-family: Noto Sans TC;;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(0,0,0,1);
+	}
+	#BMIcommend {
+		opacity: 0.996;
+		left: 44px;
+		top: 288px;
+		position: absolute;
+		overflow: hidden;
+		width: 294px;
+		height: auto;
+		line-height: 15px;
+		margin-top: -2.5px;
+		text-align: left;
+		font-family: Noto Sans TC;;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 10px;
+		color: rgba(181,181,181,1) ;
+		letter-spacing: 0.3px;
+	}
+	#_12_bw {
+		opacity: 0.805;
+		fill: transparent;
+		stroke: rgb(0, 0, 0);
+		stroke-width: 1px;
+		stroke-linejoin: round;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	._12_bw {
+		position: absolute;
+		overflow: visible;
+		width: 247px;
+		height: 39px;
+
+	}
+	#BMI_bx {
+		opacity: 0.804;
+		left: 47px;
+		top: 239px;
+		position: absolute;
+		overflow: visible;
+		width: 42px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Noto Sans TC;;
+		font-style: normal;
+		font-weight: lighter;
+		font-size: 15px;
+		color: rgba(255,255,255,1);
+	}
+	#kgm2 {
+		opacity: 0.996;
+		left: 294px;
+		top: 242px;
+		position: absolute;
+		overflow: visible;
+		width: 33px;
+		white-space: nowrap;
+		line-height: 15px;
+		margin-top: -2.5px;
+		text-align: left;
+		font-family: Noto Sans TC;;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 10px;
+		color: rgba(181,181,181,1);
+		letter-spacing: 0.3px;
+	}
+	.mediaViewInfo {
+		--web-view-name: tool;
+		--web-view-id: tool;
+		--web-scale-on-resize: true;
+		--web-center-horizontally: true;
+		--web-center-vertically: true;
+		--web-enable-deep-linking: true;
+	}
+	:root {
+		--web-view-ids: tool;
+	}
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		border: none;
+	}
+	#tool {
+		position: static;
+		width: 375px;
+		height: 812px;
+		background-color: rgba(255,255,255,1);
+		overflow: hidden;
+		--web-view-name: tool;
+		--web-view-id: tool;
+		--web-scale-on-resize: true;
+		--web-center-horizontally: true;
+		--web-center-vertically: true;
+		--web-enable-deep-linking: true;
+	}
+	@keyframes fadein {
+	
+		0% {
+			opacity: 0;
+		}
+		100% {
+			opacity: 1;
+		}
+	
+	}
+	#chevron-compact-left {
+		position: absolute;
+		width: 10px;
+		height: 20px;
+		left: 24.74px;
+		top: 70px;
+		overflow: visible;
+		--web-animation: fadein 0.3s ease-out;
+		--web-action-type: page;
+		--web-action-target: HM.html;
+		cursor: pointer;
+	}
+	#_24 {
+		fill: rgba(0,0,0,1);
+	}
+	._24 {
+		overflow: visible;
+		position: absolute;
+		width: 10px;
+		height: 20px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	/* #_5 {
+		fill: transparent;
+		stroke: rgba(0,0,0,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	._5 {
+		overflow: visible;
+		position: absolute;
+		width: 336.006px;
+		height: 3px;
+		left: 20px;
+		top: 105px;
+		transform: matrix(1,0,0,1,0,0);
+	} */
+	#_ {
+		position: absolute;
+		width: 340px;
+		height: 59px;
+		left: 5px;
+		top: 140px;
+		overflow: visible;
+		--web-animation: fadein 0.3s ease-out;
+		--web-action-type: page;
+		--web-action-target: BMI.html;
+		cursor: pointer;
+		background-color: rgba(73, 73, 73, 0.274);
+		border-radius: 6px;
+	}
+	#_8__2 {
+		position: absolute;
+		width: 350px;
+		height: 59px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	/* #barbutton {
+		fill: rgba(255,255,255,1);
+	} */
+	.barbutton {
+		filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+		fill: rgba(0, 0, 0, 0);
+		position: relative;
+		overflow: visible;
+		width: 350px;
+		height: 77px;
+		left: 0px;
+		top: 0px; 
+	}
+	#stitle {
+		left: 30px;
+		top: 2px;
+		position: absolute;
+		overflow: visible;
+		width: 75px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Noto Sans TC;;
+		font-style: normal;
+		font-weight: lighter;
+		font-size: 20px;
+		color: rgb(255, 255, 255);
+	}
+	#comment {
+		left: 30px;
+		top: 31px;
+		position: absolute;
+		overflow: visible;
+		width: 151px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Noto Sans TC;;
+		font-style: normal;
+		font-weight: lighter;
+		font-size: 15px;
+		color: rgba(116,115,115,1);
+	}
+	#arrow {
+		position: absolute;
+		width: 154px;
+		height: 15px;
+		left: 250px;
+		top: 21px;
+		z-index:1;
+		overflow: visible;
+	}
+	#backarrow {
+		position: absolute;
+		width: 154px;
+		height: 15px;
+		left: 263px;
+		top: 21px;
+		overflow: visible;
+		z-index:1;
+	}
+	#_33_ {
+		position: absolute;
+		width: 340px;
+		height: 59px;
+		left: 5px;
+		top: 211px;
+		overflow: visible;
+		--web-animation: fadein 0.3s ease-out;
+		--web-action-type: page;
+		--web-action-target: Dmr.html;
+		cursor: pointer;
+		background-color: rgba(73, 73, 73, 0.274);
+		border-radius: 6px;
+	}
+	#_bb {
+		position: absolute;
+		width: 417px;
+		height: 59px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+
+	}
+	#_8__2_bb {
+		position: absolute;
+		width: 375px;
+		height: 59px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#textstyle{
+		position: absolute; 
+		overflow: visible;
+		width: 294px;
+		height: 39px;
+	}
+	.input {
+		position: absolute;
+		overflow: visible;
+		height: 39px;
+		top: 0px; 
+		left: 35%; 
+		width: 150px;
+		background-color:transparent;
+		-webkit-text-fill-color: #ffffff;
+		opacity: 0.804;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Noto Sans TC;;
+		font-size: 15px;
+		font-weight: normal;
+		color: rgba(255, 255, 255);
+		line-height: 39px;
+	}
+	.inputtitle {  
+		position: absolute;
+		overflow: visible;
+		width: 200px;
+		height: 39px;
+		left: 10px;
+		top: 0px; 
+		background-color:transparent;
+		-webkit-text-fill-color: #fffdfd;
+		opacity: 0.804;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Noto Sans TC;;
+		font-size: 15px;
+		font-weight: lighter;
+		color: rgba(255, 255, 255);
+		line-height: 39px;
+	}
+	#textframe {
+		opacity: 0.805;
+		fill: transparent;
+		stroke:rgba(255,255,255,1);;
+		stroke-width: 1px;
+		stroke-linejoin: round;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.textframe {
+		position: absolute;
+		overflow: visible;
+		width: 141px;
+		height: 39px;
+		left: -12px;
+		top: 0px;
+	}
+}
+
+/* 橫式 */
+/* 如果使用者視窗寬度 >= 1024px*/
+@media screen and (min-width: 1024px) {
+	.mediaViewInfo {
+		--web-view-name: Bmr;
+		--web-view-id: Bmr;
+		--web-scale-to-fit: true;
+		--web-scale-to-fit-type: fit;
+		--web-scale-on-resize: true;
+		--web-center-horizontally: true;
+		--web-center-vertically: true;
+		--web-enable-deep-linking: true;
+	}
+	:root {
+		--web-view-ids: Bmr;
+	}
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		border: none;
+	}
+	#Bmr {
+		position: static;
+		width: 100vw;
+		height: 100vh;
+		background-color: rgba(255,255,255,1);
+		overflow: hidden;
+		--web-view-name: Bmr;
+		--web-view-id: Bmr;
+		--web-scale-to-fit: true;
+		--web-scale-to-fit-type: fit;
+		--web-scale-on-resize: true;
+		--web-center-horizontally: true;
+		--web-center-vertically: true;
+		--web-enable-deep-linking: true;
+	}
+	#box{
+		position: absolute;
+        width: 350px;
+        height: 555px;
+        display: flex; 
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        align-content: space-around;
+        justify-content: space-around;
+        /*  置中 */
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%) ;
+		background-color: rgba(0, 0, 0, 0.8);
+        border: 0px solid rgb(133, 133, 133);
+        border-radius: 10px;
+    }
+	#background{
+        position: absolute;
+        width: 100vw;
+        height: 100vh;
+        overflow: visible;
+        background: url("../picture/frbackground.jpg");
+		opacity:0.6;
+        background-position: center center;
+        background-size:cover;
+    }
+
+
+
+	@keyframes fadein {
+
+		0% {
+			opacity: 0;
+		}
+		100% {
+			opacity: 1;
+		}
+
+	}
+	#chevron-compact-left_b {
+		position: absolute;
+		width: 10px;
+		height: 20px;
+		left: 24.74px;
+		top: 70px;
+		overflow: visible;
+		--web-animation: fadein 0.3s ease-out;
+		--web-action-type: page;
+		--web-action-target: tool.html;
+		cursor: pointer;
+
+	}
+	#_24_b {
+		fill: rgba(0,0,0,1);
+	}
+	._24_b {
+		overflow: visible;
+		position: absolute; /*改*/
+		width: 10px;
+		height: 20px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+		
+	}
+	#title {
+		left: 80px; /*改*/
+		top: 62px;
+		position: absolute;
+		overflow: visible;
+		width: 190px;
+		white-space: nowrap;
+		line-height: 30px;
+		margin-top: -2.5px;
+		text-align: center;
+		font-family: Noto Sans TC;;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 25px;
+		color: rgba(255,255,255,1);
+		
+	}
+	#_5_b {
+		fill: transparent;
+		stroke: rgba(255,255,255,1);;
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+
+	}
+	._5_b {
+		overflow: visible;
+		position: relative; /*改*/
+		width: 336.006px;
+		height: 3px;
+		left: 10px;
+		top: 105px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#_ca {
+		position: absolute;
+		width: 294px;
+		height: 39px;
+		left: 41px;
+		top: 126px;
+		overflow: visible;
+	}
+	#_12_b {
+		opacity: 0.805;
+		fill: transparent;
+		stroke: rgb(255, 255, 255);
+		stroke-width: 1px;
+		stroke-linejoin: round;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	._12_b {
+		position: absolute;
+		overflow: visible;
+		width: 294px;
+		height: 39px;
+		left: 0px;
+		top: 0px;
+	}
+	#_cb {
+		opacity: 0.804;
+		left: 12px;
+		top: 8px;
+		position: absolute;
+		overflow: visible;
+		width: 31px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Noto Sans TC;;
+		font-style: normal;
+		font-weight: lighter;
+		font-size: 15px;
+		color: rgba(255, 255, 255);
+	}
+	#_cc {
+		position: absolute;
+		width: 294px;
+		height: 39px;
+		left: 41px;
+		top: 178px;
+		overflow: visible;
+	}
+	/* #_12_ca {
+		opacity: 0.805;
+		fill: transparent;
+		stroke: rgba(0,0,0,1);
+		stroke-width: 1px;
+		stroke-linejoin: round;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto; */
+	
+	._12_ca {
+		position: absolute;
+		overflow: visible;
+		width: 294px;
+		height: 39px;
+		left: 0px;
+		top: 0px;
+	}
+	#_cd {
+		opacity: 0.804;
+		left: 12px;
+		top: 8px;
+		position: absolute;
+		overflow: visible;
+		width: 31px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Noto Sans TC;;
+		font-style: normal;
+		font-weight: lighter;
+		font-size: 15px;
+		color: rgba(255, 255, 255);
+	}
+	#_27_cb {   /*計算的框框*/
+		position: absolute;
+		width: 294px;
+		height: 43px;
+		left: 30px;
+		top: 493px;
+		overflow: visible;
+		opacity: 0.998;
+		fill: rgba(255,235,71,1);
+		cursor: pointer;
+	}
+	._27_cb {   /*計算的框框*/
+		width: 294px;
+		height: 43px;	
+	}
+	._42_cc {
+		filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+		position: absolute;
+		overflow: visible;
+		width: 312px;
+		height: 61px;
+		left: 0px;
+		top: 0px;
+	}
+	#_ce {
+		opacity: 0.804;
+        left: 132px;
+        top: 8px;
+        position: absolute;
+        overflow: visible;
+        width: 31px;
+        white-space: nowrap;
+        text-align: center;
+        font-family: Noto Sans TC;;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        color: rgba(0,0,0,1);
+	}
+	#_cf {
+		opacity: 0.996;
+		left: 44px;
+		top: 444px;
+		position: absolute; /* 基本代謝率為人體一天至少消耗的熱量，此數值會依年紀、性別、肌肉量而有所差異。此計算為基本數值計算，仍需依專業射量機器計算為準。 */
+		overflow: visible;
+		width: 289px;
+		height: 45px;
+		line-height: 15px;
+		margin-top: -2.5px;
+		text-align: left;
+		font-family: Noto Sans TC;;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 10px;
+		color: rgba(181,181,181,1);
+		letter-spacing: 0.3px;
+	}
+	#_28 {
+		position: absolute;
+		width: 200px;
+		height: 39px;
+		left: 30px;
+		top: 386px;
+		overflow: visible;
+		/* background-color: blue; */
+	}
+	#_cg {
+		position: relative;
+		width: 288px;
+		height: 39px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+		/* background-color: cadetblue; */
+	}
+	#_12_ch {  /*每日總熱量消耗*/
+		opacity: 0.805;
+		fill: transparent;
+		stroke: rgba(255, 255, 255);
+		stroke-width: 1px;
+		stroke-linejoin: round;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto; 
+
+	}
+	._12_ch {
+		position: absolute; 
+		overflow: visible;
+		width: 198px; 
+		height: 39px; 
+		left: 79px;
+		top: 0px;
+		/* background-color: crimson; */
+	}
+	#_ci {  /*每日總熱量消耗的字*/
+		opacity: 0.804;
+		left: 5px;
+		top: 9px;
+		position: absolute;
+		overflow: visible;
+		width: 91px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Noto Sans TC;;
+		font-style: normal;
+		font-weight: lighter;
+		font-size: 15px;
+		color: rgba(255, 255, 255);
+	}
+	#kgm2_cj {
+		opacity: 0.996;
+		left: 247px;
+		top: 12px;
+		position: absolute;
+		overflow: visible;
+		width: 33px;
+		white-space: nowrap;
+		line-height: 15px;
+		margin-top: -2.5px;
+		text-align: left;
+		font-family: Noto Sans TC;;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 10px;
+		color: rgba(181,181,181,1);
+		letter-spacing: 0.3px;
+	}
+	#_ck {
+		position: absolute;
+		width: 294px;
+		height: 39px;
+		left: 41px;
+		top: 230px;
+		overflow: visible;
+	}
+	/* #_12_cl {
+		opacity: 0.805;
+		fill: transparent;
+		stroke: rgba(0,0,0,1);
+		stroke-width: 1px;
+		stroke-linejoin: round;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto; 
+	}*/
+	._12_cl {
+		position: absolute;
+		overflow: visible;
+		width: 294px;
+		height: 39px;
+		left: 0px;
+		top: 0px;
+	}
+	#_cm {
+		opacity: 0.804;
+		left: 12px;
+		top: 8px;
+		position: absolute;
+		overflow: visible;
+		width: 31px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Noto Sans TC;;
+		font-style: normal;
+		font-weight: lighter;
+		font-size: 15px;
+		color: rgba(255, 255, 255);
+	}
+	#_cn {
+		position: absolute; /*不能改*/
+		width: 294px;
+		height: 39px;
+		left: 41px;
+		top: 282px;
+		overflow: visible;
+	}
+	/* #_12_co {
+		opacity: 0.805;
+		fill: transparent;
+		stroke: rgba(0,0,0,1);
+		stroke-width: 1px;
+		stroke-linejoin: round;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto; 
+	}*/
+	._12_co { 
+		position: absolute; /*不能改*/
+		overflow: visible;
+		width: 294px;
+		height: 39px;
+		left: 0px;
+		top: 0px;
+	}
+	#activity {
+		opacity: 0.804;
+		left: 12px;
+		/* top: 8px; */
+		position: absolute; /*不能改*/
+		overflow: visible;
+		width: 91px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Noto Sans TC;;
+		font-style: normal;
+		font-weight: lighter;
+		font-size: 15px;
+		color: rgba(255, 255, 255); 
+	}
+	#_cq {
+		position: absolute; /*不能改*/
+		width: 294px;
+		height: 39px;
+		left: 41px;
+		top: 334px;
+		overflow: visible;
+	}
+	#_12_cr {
+		opacity: 0.805;
+		fill: transparent;
+		stroke: rgba(255, 255, 255);
+		stroke-width: 1px;
+		stroke-linejoin: round;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	._12_cr {
+		position: absolute;
+		overflow: visible;
+		width: 294px;
+		height: 39px;
+		left: 0px;
+		top: 0px;
+	}
+	#gender {
+		opacity: 0.804;
+		left: 12px;
+		/* top: 8px; */
+		position: absolute;
+		overflow: visible;
+		width: 31px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Noto Sans TC;;
+		font-style: normal;
+		font-weight: lighter;
+		font-size: 15px;
+		color: rgba(255, 255, 255);
+	}
+	.unitcomment { 
+		opacity: 0.996;
+		left: 250px;
+		top: 33%;
+		position: absolute; 
+		overflow: visible;
+		line-height: 15px;
+		text-align: right;
+		font-family: Noto Sans TC;;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 10px;
+		color: rgba(181,181,181,1);
+		letter-spacing: 0.3px;
+	}
+	#_cu {
+		opacity: 0.996;
+		left: 303px;
+		top: 190px;
+		position: absolute;
+		overflow: visible;
+		width: 21px;
+		white-space: nowrap;
+		line-height: 15px;
+		margin-top: -2.5px;
+		text-align: right;
+		font-family: Noto Sans TC;;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 10px;
+		color: rgba(181,181,181,1);
+		letter-spacing: 0.3px;
+	}
+	.mediaViewInfo {
+		--web-view-name: BMI;
+		--web-view-id: BMI;
+		--web-scale-on-resize: true;
+		--web-enable-deep-linking: true;
+	}
+	:root {
+		--web-view-ids: BMI;
+	}
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		border: none;
+	}
+	#BMI {
+		position: static;
+		width: 375px;
+		height: 812px;
+		background-color: rgba(255,255,255,1);
+		overflow: hidden;
+		--web-view-name: BMI;
+		--web-view-id: BMI;
+		--web-scale-on-resize: true;
+		--web-enable-deep-linking: true;
+	}
+	@keyframes fadein {
+
+		0% {
+			opacity: 0;
+		}
+		100% {
+			opacity: 1;
+		}
+
+	}
+	#chevron-compact-left_bi {
+		position: absolute;
+		width: 10px;
+		height: 20px;
+		left: 24.74px;
+		top: 70px;
+		overflow: visible;
+		--web-animation: fadein 0.3s ease-out;
+		--web-action-type: page;
+		--web-action-target: tool.html;
+		cursor: pointer;
+	}
+	#_24_bj {
+		fill: rgba(0,0,0,1);
+	}
+	._24_bj {
+		overflow: visible;
+		position: absolute;
+		width: 10px;
+		height: 20px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#_5_bl {
+		fill: transparent;
+		stroke: rgba(255,255,255,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	._5_bl {
+		overflow: visible;
+		position: absolute;
+		width: 336px;
+		height: 3px;
+		left: 8px;
+		top: 105px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#_bm {
+		position: absolute;
+		width: 294px;
+		height: 39px;
+		left: 41px;
+		top: 126px;
+		overflow: visible;
+	}
+	#_12 {
+		opacity: 0.805;
+		fill: transparent;
+		stroke: rgba(0,0,0,1);
+		stroke-width: 1px;
+		stroke-linejoin: round;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	._12 {
+		position: absolute;
+		overflow: visible;
+		width: 294px;
+		height: 39px;
+		left: 0px;
+		top: 0px;
+	}
+	#_bp {
+		position: absolute;
+		width: 294px;
+		height: 39px;
+		left: 41px;
+		top: 178px;
+		overflow: visible;
+	}
+	#_12_bq {
+		opacity: 0.805;
+		fill: transparent;
+		stroke: rgba(0,0,0,1);
+		stroke-width: 1px;
+		stroke-linejoin: round;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	/* ._12_bq {
+		position: absolute;
+		overflow: visible;
+		width: 294px;
+		height: 39px;
+		left: 0px;
+		top: 0px;
+	} */
+	#_27 {  /*bmi的計算按鈕*/
+		position: absolute;
+		width: 294px;
+		height: 43px;
+		left: 30px;
+		top: 493px;
+		overflow: visible;
+	}
+	#_42 {
+		fill: rgba(255,255,255,1);
+	}
+	._42 {
+		filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+		position: absolute;
+		overflow: visible;
+		width: 312px;
+		height: 61px;
+		left: 0px;
+		top: 0px;
+	}
+	#okbutton {
+		left: 127px;
+		top: 10px;
+		position: absolute;
+		overflow: visible;
+		width: 41px;
+		white-space: nowrap;
+		line-height: 30px;
+		margin-top: -5px;
+		text-align: center;
+		font-family: Noto Sans TC;;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(0,0,0,1);
+	}
+	#BMIcommend {
+		opacity: 0.996;
+		left: 44px;
+		top: 288px;
+		position: absolute;
+		overflow: hidden;
+		width: 294px;
+		height: auto;
+		line-height: 15px;
+		margin-top: -2.5px;
+		text-align: left;
+		font-family: Noto Sans TC;;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 10px;
+		color: rgba(181,181,181,1) ;
+		letter-spacing: 0.3px;
+	}
+	#_12_bw {
+		opacity: 0.805;
+		fill: transparent;
+		stroke: rgb(0, 0, 0);
+		stroke-width: 1px;
+		stroke-linejoin: round;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	._12_bw {
+		position: absolute;
+		overflow: visible;
+		width: 247px;
+		height: 39px;
+
+	}
+	#BMI_bx {
+		opacity: 0.804;
+		left: 47px;
+		top: 239px;
+		position: absolute;
+		overflow: visible;
+		width: 42px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Noto Sans TC;;
+		font-style: normal;
+		font-weight: lighter;
+		font-size: 15px;
+		color: rgba(255,255,255,1);
+	}
+	#kgm2 {
+		opacity: 0.996;
+		left: 294px;
+		top: 242px;
+		position: absolute;
+		overflow: visible;
+		width: 33px;
+		white-space: nowrap;
+		line-height: 15px;
+		margin-top: -2.5px;
+		text-align: left;
+		font-family: Noto Sans TC;;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 10px;
+		color: rgba(181,181,181,1);
+		letter-spacing: 0.3px;
+	}
+	.mediaViewInfo {
+		--web-view-name: tool;
+		--web-view-id: tool;
+		--web-scale-on-resize: true;
+		--web-center-horizontally: true;
+		--web-center-vertically: true;
+		--web-enable-deep-linking: true;
+	}
+	:root {
+		--web-view-ids: tool;
+	}
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		border: none;
+	}
+	#tool {
+		position: static;
+		width: 375px;
+		height: 812px;
+		background-color: rgba(255,255,255,1);
+		overflow: hidden;
+		--web-view-name: tool;
+		--web-view-id: tool;
+		--web-scale-on-resize: true;
+		--web-center-horizontally: true;
+		--web-center-vertically: true;
+		--web-enable-deep-linking: true;
+	}
+	@keyframes fadein {
+	
+		0% {
+			opacity: 0;
+		}
+		100% {
+			opacity: 1;
+		}
+	
+	}
+	#chevron-compact-left {
+		position: absolute;
+		width: 10px;
+		height: 20px;
+		left: 24.74px;
+		top: 70px;
+		overflow: visible;
+		--web-animation: fadein 0.3s ease-out;
+		--web-action-type: page;
+		--web-action-target: HM.html;
+		cursor: pointer;
+	}
+	#_24 {
+		fill: rgba(0,0,0,1);
+	}
+	._24 {
+		overflow: visible;
+		position: absolute;
+		width: 10px;
+		height: 20px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	/* #_5 {
+		fill: transparent;
+		stroke: rgba(0,0,0,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	._5 {
+		overflow: visible;
+		position: absolute;
+		width: 336.006px;
+		height: 3px;
+		left: 20px;
+		top: 105px;
+		transform: matrix(1,0,0,1,0,0);
+	} */
+	#_ {
+		position: absolute;
+		width: 340px;
+		height: 59px;
+		left: 5px;
+		top: 140px;
+		overflow: visible;
+		--web-animation: fadein 0.3s ease-out;
+		--web-action-type: page;
+		--web-action-target: BMI.html;
+		cursor: pointer;
+		background-color: rgba(73, 73, 73, 0.274);
+		border-radius: 6px;
+	}
+	#_8__2 {
+		position: absolute;
+		width: 350px;
+		height: 59px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	/* #barbutton {
+		fill: rgba(255,255,255,1);
+	} */
+	.barbutton {
+		filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+		fill: rgba(0, 0, 0, 0);
+		position: relative;
+		overflow: visible;
+		width: 350px;
+		height: 77px;
+		left: 0px;
+		top: 0px; 
+	}
+	#stitle {
+		left: 30px;
+		top: 2px;
+		position: absolute;
+		overflow: visible;
+		width: 75px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Noto Sans TC;;
+		font-style: normal;
+		font-weight: lighter;
+		font-size: 20px;
+		color: rgb(255, 255, 255);
+	}
+	#comment {
+		left: 30px;
+		top: 31px;
+		position: absolute;
+		overflow: visible;
+		width: 151px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Noto Sans TC;;
+		font-style: normal;
+		font-weight: lighter;
+		font-size: 15px;
+		color: rgba(116,115,115,1);
+	}
+	#arrow {
+		position: absolute;
+		width: 154px;
+		height: 15px;
+		left: 250px;
+		top: 21px;
+		z-index:1;
+		overflow: visible;
+	}
+	#backarrow {
+		position: absolute;
+		width: 154px;
+		height: 15px;
+		left: 263px;
+		top: 21px;
+		overflow: visible;
+		z-index:1;
+	}
+	#_33_ {
+		position: absolute;
+		width: 340px;
+		height: 59px;
+		left: 5px;
+		top: 211px;
+		overflow: visible;
+		--web-animation: fadein 0.3s ease-out;
+		--web-action-type: page;
+		--web-action-target: Dmr.html;
+		cursor: pointer;
+		background-color: rgba(73, 73, 73, 0.274);
+		border-radius: 6px;
+	}
+	#_bb {
+		position: absolute;
+		width: 417px;
+		height: 59px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+
+	}
+	#_8__2_bb {
+		position: absolute;
+		width: 375px;
+		height: 59px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#textstyle{
+		position: absolute; 
+		overflow: visible;
+		width: 294px;
+		height: 39px;
+	}
+	.input {
+		position: absolute;
+		overflow: visible;
+		height: 39px;
+		top: 0px; 
+		left: 35%; 
+		width: 150px;
+		background-color:transparent;
+		-webkit-text-fill-color: #ffffff;
+		opacity: 0.804;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Noto Sans TC;;
+		font-size: 15px;
+		font-weight: normal;
+		color: rgba(255, 255, 255);
+		line-height: 39px;
+	}
+	.inputtitle {  
+		position: absolute;
+		overflow: visible;
+		width: 200px;
+		height: 39px;
+		left: 10px;
+		top: 0px; 
+		background-color:transparent;
+		-webkit-text-fill-color: #fffdfd;
+		opacity: 0.804;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Noto Sans TC;;
+		font-size: 15px;
+		font-weight: lighter;
+		color: rgba(255, 255, 255);
+		line-height: 39px;
+	}
+	#textframe {
+		opacity: 0.805;
+		fill: transparent;
+		stroke:rgba(255,255,255,1);;
+		stroke-width: 1px;
+		stroke-linejoin: round;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.textframe {
+		position: absolute;
+		overflow: visible;
+		width: 141px;
+		height: 39px;
+		left: -12px;
+		top: 0px;
+	}
+}

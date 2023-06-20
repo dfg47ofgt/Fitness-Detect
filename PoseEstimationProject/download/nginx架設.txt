@@ -1,0 +1,8 @@
+cd /d D:\3D skeletion\PoseEstimationProject\nginx
+
+start nginx
+nginx -s stop
+
+nginx -t -c ./conf/nginx.conf
+
+tasklist /fi "imagename eq nginx.exe"

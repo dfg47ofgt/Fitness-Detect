@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<meta name="viewpoint" content="width=device-width, initial-scale=1.0"/>
+<link rel="stylesheet" type="text/css" href="style.css" />
+<script src="cute-alert.js"></script>
+<title></title>
+</head>
+ 
+
+<body>
+ 
+  <script>
+    function testtest(){
+      alert("123")
+    }
+      var success = document.getElementById("confirm");
+      success.addEventListener("click", testtest);
+
+      success.addEventListener("click", ()=>{
+        alert("123")
+        cuteAlert({
+          type: "success",
+          title: "Success Title",
+          message: "Success Message",
+          buttonText: "Okay"
+        })
+      })
+   </script>
+
+    <script>
+      function testalert(){
+        alert("123")
+      }
+    </script>
+
+  <button id="confirm"> 
+	 test bottom
+	</button>
+</body>

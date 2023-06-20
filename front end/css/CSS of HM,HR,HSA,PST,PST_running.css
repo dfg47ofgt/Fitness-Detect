@@ -1,0 +1,1347 @@
+	.mediaViewInfo {
+		--web-view-name: HM;
+		--web-view-id: HM;
+		--web-scale-on-resize: true;
+		--web-enable-deep-linking: true;
+	}
+	:root {
+		--web-view-ids: HM;
+	}
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		border: none;
+	}
+	#HM {
+		position: static;
+		width: 100vw;
+		height: 100vh;
+		background-color: rgba(255,255,255,1);
+		overflow: hidden;
+
+	}
+	@keyframes fadein {
+	
+		0% {
+			opacity: 0;
+		}
+		100% {
+			opacity: 1;
+		}
+	
+	}
+	#background{
+        position: absolute;
+        width: 100vw;
+        height: 100vh;
+        overflow: visible;
+        background: url("../picture/frbackground.jpg");
+		opacity: 1;
+        background-position: center center;
+        background-size:cover;
+    }
+	#box{
+		position: absolute;
+        width: 375px;
+        height: 768px;
+        display: flex; 
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        align-content: space-around;
+        justify-content: space-around;
+        /*  置中 */
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%) ;
+		background-color: rgba(255, 255, 255, 0.8);
+        border: 0px solid rgb(133, 133, 133);
+        border-radius: 10px;
+    }
+	#bell_c {
+		position: absolute;
+		width: 26.475px;
+		height: 30.981px;
+		left: 325.05px;
+		top: 54.12px;
+		overflow: visible;
+	}
+	#_40 {
+		fill: rgba(0,0,0,1);
+	}
+	._40 {
+		overflow: visible;
+		position: absolute;
+		width: 26.475px;
+		height: 30.981px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#people-circle_c {
+		position: absolute;
+		width: 41.654px;
+		height: 41.346px;
+		left: 15px;
+		top: 48.937px;
+		overflow: visible;
+	}
+	._19_c {
+		overflow: visible;
+		position: absolute;
+		width: 31.282px;
+		height: 10.241px;
+		left: 5.186px;
+		top: 29.057px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	._20_c {
+		overflow: visible;
+		position: absolute;
+		width: 12.289px;
+		height: 12.289px;
+		left: 14.682px;
+		top: 8.717px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#draw {
+		fill: rgba(0,0,0,1);
+	}
+	#wdraw {
+		background-color: rgba(255,255,255,1);
+		fill: rgba(255,255,255,1);
+		border: 0px solid rgb(133, 133, 133);
+        border-radius: 0px 0px 10px 10px;
+		width: 375px ;
+		height:80px;
+		
+	}
+	._21_da {
+		overflow: visible;
+		position: absolute;
+		width: 41.654px;
+		height: 41.346px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#nameofuser {
+		left: 35px;
+		top: 102px;
+		position: absolute;
+		overflow: visible;
+		width: 87px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Noto Sans TC;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(112,112,112,1);
+	}
+	#_dc {
+		left: 34px;
+		top: 124.5px;
+		position: absolute;
+		overflow: visible;
+		width: 179px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Noto Sans TC;
+		font-weight: normal;
+		font-size: 40px;
+		color: rgba(0,0,0,1);
+		letter-spacing: 1.5px;
+	}
+	#frbackground {
+		opacity: 0.999;
+		position: absolute;
+		width: 375px;
+		height: 812px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#wordsbox {
+		filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+		position: absolute;
+		width: 344px;
+		height: 116px;
+		left: 15px;
+		top: 232px;
+		transform: matrix(1,0,0,1,0,0);
+		background-size: 100% 100%;
+		background-image: url(../picture/wordbox1.png);
+	}
+	#encouragewords {
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		right: 0;
+		left: 0;
+		z-index: 1;
+		margin: auto;
+		height: max-content;
+		text-align: center;
+		font-family: Noto Sans TC;
+		font-weight: normal;
+		font-size: 17px;
+		color: rgb(255, 255, 255);
+		letter-spacing: 1.5px;
+	}
+	#todaygoal {
+		left: 115px;
+		top: 393px;
+		position: absolute;
+		overflow: visible;
+		width: 119px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Noto Sans TC;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(0,0,0,1);
+		letter-spacing: 1.5px;
+	}
+	#circle {
+		position: absolute;
+		width: 10vw;
+		/* height: 30%; */
+		overflow: visible;
+	}
+	#circletype {
+		fill: rgba(255,255,255,1);
+		stroke: rgba(112,112,112,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.circletype {
+		position: absolute;
+		overflow: visible;
+		width: 97px;
+		height: 97px;
+		left: 0px;
+		top: 0px;
+	}
+	#counts {
+		left: 72px;
+		top: 57px;
+		position: absolute;
+		overflow: visible;
+		width: 12px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Noto Sans TC;
+		
+		font-weight: lighter;
+		font-size: 11px;
+		color: rgba(0,0,0,1);
+		letter-spacing: 1.5px;
+	}
+	#poss {
+		left: 32px;
+		top: 14px;
+		position: absolute;
+		overflow: visible;
+		width: 33px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Noto Sans TC;
+		
+		font-weight: lighter;
+		font-size: 15px;
+		color: rgba(0,0,0,1);
+		letter-spacing: 1.5px;
+	}
+	#countnumber {
+		left: 23px;
+		top: 25px;
+		position: absolute;
+		overflow: visible;
+		width: 47px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Noto Sans TC;
+		
+		font-weight: bold;
+		font-size: 39px;
+		color: rgba(0,0,0,1);
+	}
+	#_42 {
+		position: absolute;
+		width: 127px;
+		height: 83px;
+		left: 124px;
+		top: 588px;
+		overflow: visible;
+		--web-animation: fadein 0.3s ease-out;
+		--web-action-type: page;
+		--web-action-target: pst.html;
+		cursor: pointer;
+	}
+	#_44 {
+		fill: rgba(0,0,0,1);
+	}
+	._44 {
+		filter: drop-shadow(1px 6px 10px rgba(0, 0, 0, 0.161));
+		position: absolute;
+		overflow: visible;
+		left: 0px;
+		top: 0px;
+		width: 127px;
+		height: 83px;
+	}
+	#_41_dw {
+		position: absolute;
+		width: 88px;
+		height: 66px;
+		left: 18px;
+		top: 8px;
+		overflow: visible;
+	}
+	#logo-02 {
+		position: absolute;
+		width: 88px;
+		height: 66px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#functionbar {
+		position: absolute;
+		width: 375.5px;
+		height: 80px;
+		left: 0px;
+		top: 688px;
+		overflow: visible;
+	}
+	._46_dz {
+		position: absolute;
+		overflow: visible;
+		width: 375px;
+		height: 80px;
+		left: 0px;
+		top: 0px;
+	}
+	#_49_d {
+		fill: rgba(0,0,0,0);
+		stroke: rgba(177,177,177,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	._49_d {
+		filter: drop-shadow(0px 3px 6px rgba(99, 99, 99, 0.2));
+		overflow: visible;
+		position: absolute;
+		width: 393px;
+		height: 0px;
+	
+		top: 0.5px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#_53_d {
+		position: absolute;
+		width: 307.68px;
+		height: 37px;
+		left: 34px;
+		top: 17px;
+		overflow: visible;
+	}
+	#clipboard-data_d {
+		position: absolute;
+		width: 26.586px;
+		height: 28.58px;
+		left: 0px;
+		top: 3px;
+		overflow: visible;
+		cursor: pointer;
+	}
+	#_10_d {
+		fill: rgba(0,0,0,1);
+	}
+	._10_d {
+		overflow: visible;
+		position: absolute;
+		width: 26.586px;
+		height: 26.337px;
+		left: 0px;
+		top: 2.243px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#_11_d {
+		fill: rgba(0,0,0,1);
+	}
+	._11_d {
+		overflow: visible;
+		position: absolute;
+		width: 8.973px;
+		height: 5.982px;
+		left: 8.807px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#_12_d {
+		fill: rgba(0,0,0,1);
+	}
+	._12_d {
+		overflow: visible;
+		position: absolute;
+		width: 17.613px;
+		height: 10.468px;
+		left: 4.486px;
+		top: 12.074px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#gear_d {
+		position: absolute;
+		width: 29.68px;
+		height: 31.906px;
+		left: 278px;
+		top: 1px;
+		overflow: visible;
+		--web-animation: fadein 0.3s ease-out;
+		--web-action-type: page;
+		--web-action-target: SET.html;
+		cursor: pointer;
+	}
+	#_3_d {
+		fill: rgba(0,0,0,1);
+	}
+	._3_d {
+		overflow: visible;
+		position: absolute;
+		width: 29.68px;
+		height: 31.906px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#_4_d {
+		fill: rgba(0,0,0,1);
+	}
+	._4_d {
+		overflow: visible;
+		position: absolute;
+		width: 10.839px;
+		height: 10.838px;
+		left: 9.42px;
+		top: 10.535px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#gym_d {
+		position: absolute;
+		width: 37px;
+		height: 37px;
+		left: 66px;
+		top: 0px;
+		overflow: visible;
+		--web-animation: fadein 0.3s ease-out;
+		--web-action-type: page;
+		--web-action-target: tool.html;
+		cursor: pointer;
+	}
+	#house-door_ea {
+		position: absolute;
+		width: 26.586px;
+		height: 28.58px;
+		left: 143px;
+		top: 3px;
+		overflow: visible;
+	}
+	#_32_eb {
+		fill: rgba(0,0,0,1);
+	}
+	._32_eb {
+		overflow: visible;
+		position: absolute;
+		width: 26.586px;
+		height: 28.58px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#_33_ec {
+		fill: rgba(0,0,0,1);
+	}
+	._33_ec {
+		overflow: visible;
+		position: absolute;
+		width: 2.991px;
+		height: 5.982px;
+		left: 21.353px;
+		top: 1.496px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#calendar-week_ed {
+		position: absolute;
+		width: 26.586px;
+		height: 28.58px;
+		left: 209.586px;
+		top: 3.326px;
+		overflow: visible;
+		cursor: pointer;
+	}
+	._46_ee {
+		overflow: visible;
+		position: absolute;
+		width: 26.586px;
+		height: 27.117px;
+		left: 0px;
+		top: 1.463px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	._46_e {
+		overflow: visible;
+		position: absolute;
+		width: 23.586px;
+		height: 21.117px;
+		left: 1.6px;
+		top: 5.5px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	._47_ef {
+		overflow: visible;
+		position: absolute;
+		width: 17.806px;
+		height: 2.195px;
+		left: 4.39px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	._48_eg {
+		overflow: visible;
+		position: absolute;
+		width: 17.806px;
+		height: 7.317px;
+		left: 4.39px;
+		top: 11.598px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	.mediaViewInfo {
+		--web-view-name: HR;
+		--web-view-id: HR;
+		--web-scale-on-resize: true;
+		--web-enable-deep-linking: true;
+	}
+	:root {
+		--web-view-ids: HR;
+	}
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		border: none;
+	}
+	#HR {
+		position: static;
+		width: 100vw;
+		height: 100vh;
+		background-color: rgba(255,255,255,1);
+		overflow: hidden;
+	}
+	@keyframes fadein {
+	
+		0% {
+			opacity: 0;
+		}
+		100% {
+			opacity: 1;
+		}
+	
+	}
+	#clipboard-data_en {
+		position: absolute;
+		width: 26.586px;
+		height: 28.58px;
+		left: 0px;
+		top: 3px;
+		overflow: visible;
+		--web-animation: fadein 0.3s ease-out;
+		--web-action-type: page;
+		--web-action-target: HSA.html;
+		cursor: pointer;
+	}
+
+	#gear_er {
+		position: absolute;
+		width: 29.68px;
+		height: 31.906px;
+		left: 278px;
+		top: 0px;
+		overflow: visible;
+		--web-animation: fadein 0.3s ease-out;
+		--web-action-type: page;
+		--web-action-target: SET.html;
+		cursor: pointer;
+	}
+	#HSA {
+		position: static;
+		width: 100vw;
+		height: 100vh;
+		background-color: rgba(255,255,255,1);
+
+	}
+	@keyframes fadein {
+	
+		0% {
+			opacity: 0;
+		}
+		100% {
+			opacity: 1;
+		}
+	
+	}
+	.mediaViewInfo {
+		--web-view-name: pst;
+		--web-view-id: pst;
+		--web-scale-on-resize: true;
+		--web-enable-deep-linking: true;
+	}
+	:root {
+		--web-view-ids: pst;
+	}
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		border: none;
+	}
+	#pst {
+		position:static;
+		width: 100vw;
+		height: 100vh;
+		background-color: rgba(255,255,255,1);
+		overflow: hidden;
+		--web-view-name: pst;
+		--web-view-id: pst;
+		--web-scale-on-resize: true;
+		--web-enable-deep-linking: true;
+	}
+	#QRCode_ca {
+		position: absolute;
+		width: 375px;
+		height: 812px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#_27 {
+		opacity: 0.57;
+		fill: rgba(255, 255, 255, 1);
+		stroke: rgb(77, 77, 77);
+		stroke-width: 5px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+		
+	}
+	._27 {
+		position: absolute;
+		overflow: visible;
+		width: 295px;
+		height: 295px;
+		left: 40px;
+		top: 165px;
+	}
+	#定位 {
+		left: 40px;
+		top: 496px;
+		position: absolute;
+		overflow: visible;
+		width: 179px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Noto Sans TC;
+		
+		font-weight: lighter;
+		font-size: 40px;
+		color: rgba(255,255,255,1);
+		letter-spacing: 1.5px;
+		z-index: 2;
+	}
+	#_6_ce {
+		position: absolute;
+		width: 25px;
+		height: 56px;
+		left: 40px;
+		top: 55px;
+		overflow: visible;
+		z-index: 2;
+	}
+	#_29 {
+		fill: rgba(255,255,255,1);
+		background-color: rgba(255,255,255,1);
+		border-radius: 0px 0px 10px 10px;
+		position: absolute;
+		overflow: visible;
+		left: 0px;
+		top: 600px;
+		z-index: 2;
+		width:375px ;
+		height:168px;
+	}
+	#__cg {
+		left: 40px;
+		top: 627px;
+		position: absolute;
+		overflow: visible;
+		width: 311px;
+		height: 30px;
+		text-align: left;
+		font-family: Noto Sans TC;
+		
+		font-weight: normal;
+		font-size: 12px;
+		color: rgba(181,181,181,1);
+		letter-spacing: 0.3px;
+		z-index: 2;
+	}
+	.mediaViewInfo {
+		--web-view-name: pst_cd;
+		--web-view-id: pst_cd;
+		--web-scale-on-resize: true;
+		--web-enable-deep-linking: true;
+	}
+	:root {
+		--web-view-ids: pst_cd;
+	}
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		border: none;
+	}
+	#pst_cd {
+		position: static;
+		width: 100vw;
+		height: 100vh;
+		overflow: hidden;
+		--web-view-name: pst_cd;
+		--web-view-id: pst_cd;
+		--web-scale-on-resize: true;
+		--web-enable-deep-linking: true;
+		background-color:rgba(0, 0, 0, 0.5);
+	}
+	
+	#QRCode {
+		position: absolute;
+		width: 375px;
+		height: 812px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#_6_b {
+		position: absolute;
+		width: 25px;
+		height: 56px;
+		left: 40px;
+		top: 55px;
+		overflow: visible;
+	}
+	#_37 {
+		opacity: 0.696;
+		fill: rgba(0,0,0,1);
+	}
+	._37 {
+		overflow: visible;
+		position: absolute;
+		width: 375px;
+		height: 812px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+
+	.spinner {
+		width: 120px;
+		height: 120px;
+		top:600px;
+		background-color: rgb(255, 206, 71);
+		margin: auto auto;
+		z-index: 1;
+		animation: RotatePlane 1.75s infinite ease-in-out;
+	  }
+
+	@keyframes RotatePlane {
+		0%   { transform: perspective(120px) rotateX(0deg) rotateY(0deg); }
+		50%  { transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg); }
+		100% { transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg); }
+	  }
+	.ID5 {
+	    top:0;
+  	  	right:0;
+    	bottom: 70px;;
+   		left:0;
+    	margin:auto;
+		position: absolute;
+		/* visibility: hidden; */
+		width: 120px;
+		height: 120px;
+		text-align: center;
+		font-family: Noto Sans TC;		
+		font-weight: bold;
+		font-size: 120px;
+		z-index: 5;
+		color: rgba(255,255,255,1);
+		}
+		#pst_cd_position{
+			position: absolute;
+			width: 120px;
+			height: 120px;
+			top: 35%;
+			left: 50%;
+			margin: -60px 0 0 -60px;
+		}
+	
+	.mediaViewInfo {
+		--web-view-name: pst_running;
+		--web-view-id: pst_running;
+		--web-scale-on-resize: true;
+		--web-enable-deep-linking: true;
+	}
+	:root {
+		--web-view-ids: pst_running;
+	}
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		border: none;
+	}
+	#pst_running {
+		position: static;
+		width: 100vw;
+		height: 100vh;
+		background-color: rgba(255,255,255,1);
+		overflow: hidden;
+		--web-view-name: pst – 4;
+		--web-view-id: pst_running;
+		--web-scale-on-resize: true;
+		--web-enable-deep-linking: true;
+	}
+	#_6 {
+		position: absolute;
+		width: 25px;
+		height: 56px;
+		left: 40px;
+		top: 55px;
+		overflow: visible;
+	}
+	#_26 {
+		position: absolute;
+		width: 375px;
+		height: 53.5px;
+		left: 0.5px;
+		top: 732.5px;
+		overflow: visible;
+	}
+	#_14 {
+		position: absolute;
+		width: 307.68px;
+		height: 37px;
+		left: 33.5px;
+		top: 16.5px;
+		overflow: visible;
+	}
+	#clipboard-data {
+		position: absolute;
+		width: 26.586px;
+		height: 28.58px;
+		left: 0px;
+		top: 3px;
+		overflow: visible;
+	}
+	#_10 {
+		fill: rgba(0,0,0,1);
+	}
+	._10 {
+		overflow: visible;
+		position: absolute;
+		width: 26.586px;
+		height: 26.337px;
+		left: 0px;
+		top: 2.243px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#_11 {
+		fill: rgba(0,0,0,1);
+	}
+	._11 {
+		overflow: visible;
+		position: absolute;
+		width: 8.973px;
+		height: 5.982px;
+		left: 8.807px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#_12 {
+		fill: rgba(0,0,0,1);
+	}
+	._12 {
+		overflow: visible;
+		position: absolute;
+		width: 17.613px;
+		height: 10.468px;
+		left: 4.486px;
+		top: 12.075px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#gear {
+		position: absolute;
+		width: 29.68px;
+		height: 31.906px;
+		left: 278px;
+		top: 0px;
+		overflow: visible;
+	}
+	#_3 {
+		fill: rgba(0,0,0,1);
+	}
+	._3 {
+		overflow: visible;
+		position: absolute;
+		width: 29.68px;
+		height: 31.906px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#_4 {
+		fill: rgba(0,0,0,1);
+	}
+	._4 {
+		overflow: visible;
+		position: absolute;
+		width: 10.839px;
+		height: 10.839px;
+		left: 9.42px;
+		top: 10.535px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#calendar-date {
+		position: absolute;
+		width: 26.586px;
+		height: 28.58px;
+		left: 211px;
+		top: 3px;
+		overflow: visible;
+	}
+	#_5 {
+		fill: rgba(0,0,0,1);
+	}
+	._5 {
+		overflow: visible;
+		position: absolute;
+		width: 10.223px;
+		height: 8.284px;
+		left: 8.035px;
+		top: 12.126px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#_6_bc {
+		fill: rgba(0,0,0,1);
+	}
+	._6_bc {
+		overflow: visible;
+		position: absolute;
+		width: 26.586px;
+		height: 27.084px;
+		left: 0px;
+		top: 1.496px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#_7 {
+		fill: rgba(0,0,0,1);
+	}
+	._7 {
+		overflow: visible;
+		position: absolute;
+		width: 17.613px;
+		height: 2.243px;
+		left: 4.486px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#gym {
+		position: absolute;
+		width: 37px;
+		height: 37px;
+		left: 66px;
+		top: 0px;
+		overflow: visible;
+	}
+	#house-door {
+		position: absolute;
+		width: 26.586px;
+		height: 28.58px;
+		left: 143px;
+		top: 3px;
+		overflow: visible;
+	}
+	#_32 {
+		fill: rgba(0,0,0,1);
+	}
+	._32 {
+		overflow: visible;
+		position: absolute;
+		width: 26.586px;
+		height: 28.58px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#_33 {
+		fill: rgba(0,0,0,1);
+	}
+	._33 {
+		overflow: visible;
+		position: absolute;
+		width: 2.991px;
+		height: 5.982px;
+		left: 21.353px;
+		top: 1.497px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#_6_bi {
+		fill: transparent;
+		stroke: rgba(177,177,177,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	._6_bi {
+		filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+		overflow: visible;
+		position: absolute;
+		width: 393px;
+		height: 19px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#startbuttonposition {
+		position: absolute;
+		width: 98px;
+		height: 98px;
+		left: 212px;
+		top: 580px;
+		overflow: visible;
+		cursor: pointer;
+	}
+	#pstStartButton {
+		fill: rgba(5,5,5,1);
+		stroke: rgba(112,112,112,1);
+		stroke-width: 3px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+		cursor: pointer;
+	}
+	.pstStartButton {
+		position: relative;
+		overflow: visible;
+		width: min-content;
+		height: min-content;
+		left: 0px;
+		top: 0px;
+		width: 98px;
+		height: 98px;
+	}
+	#caret-right-fill {
+		position: absolute;
+		width: 45.893px;
+		height: 60.13px;
+		left: 32.772px;
+		top: 18.935px;
+		overflow: visible;
+	}
+	#_39 {
+		fill: rgba(255,235,71,1);
+	}
+	._39 {
+		overflow: visible;
+		position: absolute;
+		width: 45.893px;
+		height: 60.13px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#bell {
+		position: absolute;
+		width: 27.883px;
+		height: 34.021px;
+		left: 327.739px;
+		top: 51.08px;
+		overflow: visible;
+	}
+	#_1 {
+		fill: rgba(0,0,0,1);
+	}
+	._1 {
+		overflow: visible;
+		position: absolute;
+		width: 6.786px;
+		height: 3.393px;
+		left: 10.549px;
+		top: 30.628px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#_2_bp {
+		fill: rgba(0,0,0,1);
+	}
+	._2_bp {
+		overflow: visible;
+		position: absolute;
+		width: 27.883px;
+		height: 28.931px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#people-circle {
+		position: absolute;
+		width: 36.772px;
+		height: 36.501px;
+		left: 14px;
+		top: 48.601px;
+		overflow: visible;
+	}
+	#_19 {
+		fill: rgba(0,0,0,1);
+	}
+	._19 {
+		overflow: visible;
+		position: absolute;
+		width: 27.615px;
+		height: 9.041px;
+		left: 4.578px;
+		top: 25.652px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#_20 {
+		fill: rgba(0,0,0,1);
+	}
+	._20 {
+		overflow: visible;
+		position: absolute;
+		width: 10.849px;
+		height: 10.849px;
+		left: 12.962px;
+		top: 7.695px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#_21 {
+		fill: rgba(0,0,0,1);
+	}
+	._21 {
+		overflow: visible;
+		position: absolute;
+		width: 36.772px;
+		height: 36.5px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#_ {
+		left: 35px;
+		top: 102px;
+		position: absolute;
+		overflow: visible;
+		width: 87px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Noto Sans TC;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(112,112,112,1);
+	}
+	#endbuttonposition {
+		position: absolute;
+		width: 98px;
+		height: 98px;
+		left: 60px;
+		top: 580px;
+		overflow: visible;
+		cursor: pointer; 
+	}
+
+	#_43 {
+		fill: rgba(255,255,255,1);
+		stroke: rgba(112,112,112,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	._43 {
+		position: absolute;
+		overflow: visible;
+		width: 52px;
+		height: 53px;
+		left: 23px;
+		top: 22px;
+	}
+	#liveshowsport{
+		position: absolute;
+		top: 210px;
+		width: 100%;
+		height: 190px;
+		overflow: visible;
+		text-align: center;
+		font-family: Noto Sans TC;
+		font-weight: lighter;
+		font-size: 25px;
+		color: rgba(0,0,0,1);
+		letter-spacing:1.5px;
+		background-color:rgb(214, 214, 214); ;
+	}
+	#showsport1{
+		text-align: center;
+		font-family: Noto Sans TC;
+		font-weight: bold;
+		font-size: 40px;
+		letter-spacing:2px;
+		color: rgba(0,0,0,1);
+	}
+	.stopwatch {
+		position: absolute;
+		top: 400px;
+		left: 55px;
+		margin:0 auto;
+		font-family: Noto Sans TC;
+		font-weight: normal;
+		font-size: 60px;
+		color: rgba(0,0,0,1);
+		letter-spacing: 1.5px;
+		text-transform: uppercase;
+	}
+	.container{
+		top: 18%;
+		position: absolute;
+		width: 375px;
+		/* display: flex; */
+		flex-flow: column wrap;
+		text-align: center;
+		/* flex-direction: column */
+	}
+	.radiobt{
+		width: auto;
+		height: auto;
+		background-color: rgb(255, 255, 255);
+	}
+	#radiobt{
+		font-family: Noto Sans TC;
+		font-weight: normal;
+		font-size: 18px;
+		color: rgba(0,0,0,1);
+	}
+	#calories{
+		font-family: Noto Sans TC;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(0,0,0,1);
+		background-color: rgb(255, 255, 255);
+		width: 375px;
+		height: auto;
+	}
+	#c1 {
+		font-family: Noto Sans TC;
+		display: inline-block;
+		height: 230px;
+		width: 325px;
+		background-color:transparent;
+	}
+	#c2 {
+		font-family: Noto Sans TC;
+		display: inline-block;
+		height: 230px;
+		width: 325px;
+		background-color:transparent;
+	}
+
+	#maintitle {
+		left: 129px;
+		top: 62px;
+		position: absolute;
+		overflow: visible;
+		width: 118px;
+		white-space: nowrap;
+		line-height: 30px;
+		margin-top: -2.5px;
+		text-align: center;
+		font-family: Noto Sans TC;
+		font-weight: normal;
+		font-size: 25px;
+		color: rgba(0,0,0,1);
+	}
+	#crossline {
+		fill: transparent;
+		stroke: rgba(0,0,0,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.crossline {
+		overflow: visible;
+		position: absolute;
+		width: 336.006px;
+		height: 3px;
+		left: 20px;
+		top: 105px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+
+	input[type=radio]+span {
+		display: inline-block;
+		background-color: rgb(255, 255, 255);
+		padding: 5px 5px;
+		color: rgb(0, 0, 0);
+		user-select: none; /* 防止文字被滑鼠選取反白 */
+	}
+	input[type=radio]:checked+span {
+		color: rgb(0, 0, 0);
+		background-color: rgb(255, 206, 71);
+	}
+	.chartjs-chart-tooltip{
+		right: 5px !important;
+		left: auto !important;
+		top: 5px !important;
+		bottom: auto !important;
+	  }
+	#pause-fill {
+		display: none;
+		position: absolute;
+		width: 44.451px;
+		height: 48.052px;
+		left: 26.774px;
+		top: 24.974px;
+		overflow: visible;
+	}
+	#_38_e {
+		fill: rgba(255,235,71,1);
+	}
+	._38_e {
+		overflow: visible;
+		position: absolute;
+		width: 44.451px;
+		height: 48.052px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}

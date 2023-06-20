@@ -1,0 +1,2615 @@
+/* CSS of FR, LG, RGT */
+
+/* 直式*/
+/* 如果使用者視窗寬度 <= px */  
+@media screen and (max-width: 768px) {
+    .mediaViewInfo {
+        --web-view-name: RGT;
+        --web-view-id: RGT;
+        --web-scale-on-resize: true;
+        --web-center-horizontally: true;
+        --web-enable-deep-linking: true;
+    }
+    :root {
+        --web-view-ids: RGT;
+    }
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        border: none;
+    }
+    #RGT {
+        position: static;
+        width: 100vw;
+        height: 100vh;
+        background-color: rgb(0, 0, 0);
+        overflow: hidden;
+        --web-view-name: RGT;
+        --web-view-id: RGT;
+        --web-scale-on-resize: true;
+        --web-center-horizontally: true;
+        --web-enable-deep-linking: true; 
+    }
+    @keyframes fadein {
+
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+
+    }
+
+    input[type="date"]::-webkit-calendar-picker-indicator {
+        background: url(../picture/calnder.png)  left/100% no-repeat ;
+        color: rgba(179, 179, 179, 0);
+        opacity: 0.8
+    }
+
+    input[type="date"]::-webkit-calendar-picker-indicator:hover {
+        background: url(../picture/calnder.png) center/100% no-repeat;
+        opacity: 1
+    }
+    #style{
+        position: absolute; 
+        overflow: visible;
+        width: 294px;
+        height: 39px;
+    }
+    #box{
+        position: absolute;
+        min-width: fit-content;
+        height: max-content;
+        display: flex; 
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        align-content: space-around;
+        justify-content: space-around;
+        /*  置中 */
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%) ;
+        /* background-color: yellowgreen; */
+    }
+    .margin {
+        margin: 10px;
+    }
+
+    #成為健身夥伴 {
+        position: relative;
+        overflow: visible;
+        width: 271px;
+        white-space: nowrap;
+        text-align: center;
+        font-family: Noto Sans TC;
+        font-style: normal;
+        font-weight: lighter;
+        font-size: 40px;
+        color: rgba(255,255,255,1);
+        letter-spacing: 1.5px;
+    }
+    #文字敘述{
+        opacity: 0.996;
+        /* left: 41px;
+        top: 259px; */
+        position: relative;
+        overflow: visible;
+        width: 176px;
+        margin: 10px;
+        white-space: nowrap;
+        text-align: center;
+        font-family: Noto Sans TC;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        color: rgba(181,181,181,1);
+        letter-spacing: 0.3px;
+    }
+    #_1 {
+        position: absolute;
+        overflow: visible;
+        width: 25px;
+        height: 56px;
+        right: 5%;
+        top: 5%;
+        cursor: pointer;
+    }
+    #_12 {
+        opacity: 0.805;
+        fill: transparent;
+        stroke: rgba(255,255,255,1);
+        stroke-width: 1px;
+        stroke-linejoin: round;
+        stroke-linecap: butt;
+        stroke-miterlimit: 4;
+        shape-rendering: auto;
+    }
+    ._12 {
+        position: absolute;
+        overflow: visible;
+        width: 294px;
+        height: 39px;
+        left: 0px;
+        top: 0px;
+    }
+    #_bg {
+        opacity: 0.804;
+        left: 12px;
+        top: 8px;
+        position: absolute;
+        overflow: visible;
+        width: 91px;
+        white-space: nowrap;
+        text-align: left;
+        font-family: Noto Sans TC;
+        font-style: normal;
+        font-weight: lighter;
+        font-size: 15px;
+        color: rgba(255,255,255,1);
+    }
+
+    #_12_bi {
+        opacity: 0.805;
+        fill: transparent;
+        stroke: rgba(255,255,255,1);
+        stroke-width: 1px;
+        stroke-linejoin: round;
+        stroke-linecap: butt;
+        stroke-miterlimit: 4;
+        shape-rendering: auto;
+    }
+    ._12_bi {
+        position: absolute;
+        overflow: visible;
+        width: 294px;
+        height: 39px;
+        left: 0px;
+        top: 0px;
+    }
+    #_bj {
+        opacity: 0.804;
+        left: 12px;
+        top: 8px;
+        position: absolute;
+        overflow: visible;
+        width: 31px;
+        white-space: nowrap;
+        text-align: left;
+        font-family: Noto Sans TC;
+        font-style: normal;
+        font-weight: lighter;
+        font-size: 15px;
+        color: rgba(255,255,255,1);
+    }
+    #_12_bl {
+        opacity: 0.805;
+        fill: transparent;
+        stroke: rgba(255,255,255,1);
+        stroke-width: 1px;
+        stroke-linejoin: round;
+        stroke-linecap: butt;
+        stroke-miterlimit: 4;
+        shape-rendering: auto;
+    }
+    ._12_bl {
+        position: absolute;
+        overflow: visible;
+        width: 294px;
+        height: 39px;
+        left: 0px;
+        top: 0px;
+    }
+    #_bm {
+        opacity: 0.804;
+        left: 12px;
+        top: 8px;
+        position: absolute;
+        overflow: visible;
+        width: 91px;
+        white-space: nowrap;
+        text-align: left;
+        font-family: Noto Sans TC;
+        font-style: normal;
+        font-weight: lighter;
+        font-size: 15px;
+        color: rgba(255,255,255,1);
+    }
+    #_bq {
+        position: relative;
+        width: 91px;
+        height: 39px;
+        overflow: visible;
+        margin: 0px 12px 0px 10px;
+    }
+    #textframe {
+        opacity: 0.805;
+        fill: transparent;
+        stroke: rgba(255,255,255,1);
+        stroke-width: 1px;
+        stroke-linejoin: round;
+        stroke-linecap: butt;
+        stroke-miterlimit: 4;
+        shape-rendering: auto;
+    }
+    .textframe1 {
+        position: relative;
+        overflow: visible;
+        width: 91px;
+        height: 39px;
+        left: 0px;
+        top: 0px;
+    }
+    #_bs {
+        opacity: 0.804;
+        left: 16px;
+        top: 8px;
+        position: absolute;
+        overflow: visible;
+        width: 31px;
+        white-space: nowrap;
+        text-align: left;
+        font-family: Noto Sans TC;
+        font-style: normal;
+        font-weight: lighter;
+        font-size: 15px;
+        color: rgba(255,255,255,1);
+    }
+    #whitetext{
+        opacity: 1;
+        position: absolute;
+        overflow: visible;
+        text-align: left;
+        font-family: Noto Sans TC;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        color:white;
+    }
+    #blacktext{
+        opacity: 1;
+        position: absolute;
+        overflow: visible;
+        text-align: left;
+        font-family: Noto Sans TC;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        color: rgb(0, 0, 0);
+    }
+    #_bt {
+        position: relative;
+        width: 181px;
+        height: 39px;
+        /* left: 154.5px;
+        top: 466px; */
+        overflow: visible;
+        margin: 0px 0px 0px 12px;
+    }
+    #_bv {
+        opacity: 0.804;
+        left: 12px;
+        top: 7.618px;
+        position: absolute;
+        overflow: visible;
+        width: 31px;
+        white-space: nowrap;
+        text-align: left;
+        font-family: Noto Sans TC;
+        font-style: normal;
+        font-weight: lighter;
+        font-size: 15px;
+        color: rgba(255,255,255,1);
+    }
+  
+    #勾選 {
+        position: absolute;
+        width: 254px;
+        height: 30px;
+        left: 40px;
+        overflow: visible;
+    }
+    #_3__1 {
+        position: absolute;
+        width: 29px;
+        height: 32px;
+        /* left: 41px;
+        top: 579px; */
+        overflow: visible;
+    }
+    #__bz {
+        opacity: 0.996;
+        left: 0px;
+        top: 0px;
+        position: absolute;
+        overflow: hidden;
+        width: 255px;
+        height: 38px;
+        text-align: left;
+        font-family: Noto Sans TC;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        color: rgba(181,181,181,1);
+        letter-spacing: 0.3px;
+    }
+    #_b {
+        position: relative;
+        width: 294px;
+        height: 40px;
+        /* left: 41px;
+        top: 634px; */
+        overflow: visible;
+        cursor: pointer;
+    }
+    #加入 {
+        opacity: 0.998;
+        fill: rgba(255,235,71,1);
+    }
+    ._12_b {
+        position: relative;
+        overflow: visible;
+        background-color: transparent;
+        width: 294px;
+        height: 39px;
+        left: 0px;
+        top: 0px;
+    }
+    #_ca {
+        opacity: 0.804;
+        left: 132px;
+        top: 8px;
+        position: absolute;
+        overflow: visible;
+        width: 31px;
+        white-space: nowrap;
+        text-align: center;
+        font-family: Noto Sans TC;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        color: rgba(0,0,0,1);
+    }
+    #已有帳號 {
+        position: relative;
+        overflow: visible;
+        white-space: nowrap;
+        text-align: center;
+        font-family: Noto Sans TC;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        color: rgba(255,255,255,1);
+        letter-spacing: 0.5px;
+        height: 25px;
+        /* left: 138px;
+        top: 684px; */
+        overflow: visible;
+    }
+
+    #_2__5 {
+        position: absolute;
+        width: 29px;
+        height: 32px;
+        left: 0px;
+        top: 0px;
+        overflow: visible;
+    }
+   
+    .mediaViewInfo {
+        --web-view-name: FR;
+        --web-view-id: FR;
+        --web-scale-on-resize: true;
+        --web-center-horizontally: true;
+        --web-center-vertically: true;
+        --web-enable-deep-linking: true;
+    }
+    :root {
+        --web-view-ids: FR;
+    }
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        border: none;
+    }
+    #FR {
+        position: static;
+        width: 100vw;
+        height: 100vh;
+        background-repeat:no-repeat;
+        background-color: rgb(236, 133, 133);
+        overflow: visible;
+        --web-view-name: FR;
+        --web-view-id: FR;
+        --web-scale-on-resize: true;
+        --web-center-horizontally: true;
+        --web-center-vertically: true;
+        --web-enable-deep-linking: true;
+    }
+    #_22 {
+        position: absolute;
+        width: 100vw;
+        height: 100vh;
+        overflow: visible;
+        background: url("../picture/frbackground.jpeg");
+        background-position: center center;
+        background-size:cover;
+    }
+    #frbackground {
+        opacity: 1;
+        position: absolute;
+        width: 375px;
+        height: 812px;
+        left: 0px;
+        top: 0px;
+        overflow: visible;
+    }
+
+    #greybackground{
+        opacity: 0.215;
+        background-color: rgb(100, 100, 100);
+        overflow: visible;
+        position: absolute;
+        width: 100vw;
+        height: 100vh;
+    }
+    .centerandflex{
+        display: flex; 
+        width: 100%;
+        top: 70%;
+        position: relative;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        } 
+    .item {
+        margin: 10px;
+      }
+    #_3 {
+        position: relative;
+        width: 150px;
+        height: 53px;
+        /* left: 23px; */
+        /* top: 656px; */
+        overflow: visible;
+    }
+    #_10_ {
+        position: absolute;
+        width: 150px;
+        height: 53px;
+        left: 0px;
+        top: 0px;
+        overflow: visible;
+    }
+    #_4 {
+        position: absolute;
+        width: 150px;
+        height: 53px;
+        left: 0px;
+        top: 0px;
+        overflow: visible;
+    }
+    #_5 {
+        fill: transparent;
+        stroke: rgba(255,255,255,1);
+        stroke-width: 2px;
+        stroke-linejoin: miter;
+        stroke-linecap: butt;
+        stroke-miterlimit: 4;
+        shape-rendering: auto;
+    }
+    ._5 {
+        position: absolute;
+        overflow: visible;
+        width: 150px;
+        height: 53px;
+        left: 0px;
+        top: 0px;
+    }
+    #_ {
+        left: 55px;
+        top: 12px;
+        position: absolute;
+        overflow: visible;
+        width: 42px;
+        white-space: nowrap;
+        text-align: center;
+        font-family: Noto Sans TC;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        color: rgba(255,255,255,1);
+        letter-spacing: 0.5px;
+    }
+    #_ba {
+        position: relative;
+        width: 150px;
+        height: 53px;
+        /* left: 203px; */
+        /* top: 656px; */
+        overflow: visible;
+    }
+    #_4 {
+        position: absolute;
+        width: 150px;
+        height: 53px;
+        left: 0px;
+        top: 0px;
+        overflow: visible;
+    }
+    #_5_ {
+        fill: rgba(255,255,255,1);
+    }
+    ._5_ {
+        position: absolute;
+        overflow: visible;
+        width: 150px;
+        height: 53px;
+        left: 0px;
+        top: 0px;
+    }
+    #_bb {
+        left: 55px;
+        top: 12px;
+        position: absolute;
+        overflow: visible;
+        white-space: nowrap;
+        text-align: center;
+        font-family: Noto Sans TC;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        color: rgba(70,63,0,1);
+        letter-spacing: 0.5px;
+    }
+ 
+    #logo {
+        position: absolute;
+        width: 193px;
+        height: 145px;
+        top: 20%;
+        left: 50%;
+        transform: translate(-50%);
+        overflow: visible;
+    }
+    #textstyle{
+        position: relative; 
+        overflow: visible;
+        width: 294px;
+        height: 39px;
+        margin: 10px;
+    }
+    .mediaViewInfo {
+        --web-view-name: LG;
+        --web-view-id: LG;
+        --web-scale-on-resize: true;
+        --web-center-horizontally: true;
+        --web-enable-deep-linking: true;
+    }
+    :root {
+        --web-view-ids: LG;
+    }
+
+    #style{
+        position: absolute; 
+        overflow: visible;
+        width: 294px;
+        height: 39px;
+    } 
+    #lgbox{
+        position: absolute;
+        min-width: fit-content;
+        height: max-content;
+        display: flex; 
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        align-content: space-around;
+        justify-content: space-around;
+
+        /*  置中 */
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%) ;
+        /*background-color: yellowgreen; */
+    }
+    #LG {
+        position: static;
+        width: 100vw;
+        height: 100vh;
+        background-color: rgb(0, 0, 0);
+        overflow: hidden;
+    }
+    @keyframes fadein {
+
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+
+    }
+    #style{
+        position: absolute; 
+        overflow: visible;
+        width: 294px;
+        height: 39px;
+    } 
+    #__cb {
+        position: relative;
+        overflow: visible;
+        width: max-content; 
+        white-space: nowrap;
+        text-align: center;
+        font-family: Noto Sans TC;
+        font-style: normal;
+        font-weight: lighter;
+        font-size: 40px;
+        color: rgb(255, 255, 255);
+        letter-spacing: 1.5px;
+        margin: 10px;
+    }
+    input {position: relative;
+        overflow: visible;
+        width: 294px;
+        height: 39px;
+        font-size: 13px;
+        background-color:transparent;
+        -webkit-text-fill-color: #ffffff;
+        padding: 10px;
+    }
+
+    #_cd {
+        position: relative;
+        width: 294px;
+        height: 39px;
+        /*left: 41px;
+        top: 310px;*/
+        overflow: visible;
+        margin: 10px;
+
+    }
+    #_12_cd {
+        opacity: 0.805;
+        fill: transparent;
+        stroke: rgba(255,255,255,1);
+        stroke-width: 1px;
+        stroke-linejoin: round;
+        stroke-linecap: butt;
+        stroke-miterlimit: 4;
+        shape-rendering: auto;
+        
+    }
+    ._12_cd {
+        position: absolute;
+        overflow: visible;
+        width: 294px;
+        height: 39px;
+        left: 0px;
+        top: 0px;
+    }
+
+    #_6 {
+        position: relative;
+        width: 294px;
+        height: 38px;
+        /*left: 41px;
+        top: 367px*/
+        overflow: visible;
+        margin: 10px;
+    }
+    #_12_cg {
+        opacity: 0.805;
+        fill: transparent;
+        stroke: rgba(255,255,255,1);
+        stroke-width: 1px;
+        stroke-linejoin: round;
+        stroke-linecap: butt;
+        stroke-miterlimit: 4;
+        shape-rendering: auto;
+    }
+    ._12_cg {
+        position: absolute;
+        overflow: visible;
+        width: 294px;
+        height: 38px;
+        left: 0px;
+        top: 0px;
+    }
+    #_ch {
+        opacity: 0.804;
+        left: 12px;
+        top: 8px;
+        position: relative;
+        overflow: visible;
+        width: 31px;
+        white-space: nowrap;
+        text-align: center;
+        font-family: Noto Sans TC;
+        font-style: normal;
+        font-weight: lighter;
+        font-size: 15px;
+        color: rgba(255,255,255,1);
+    }
+    #_1_ci {
+        position: relative;
+        width: 25px;
+        height: 56px;
+        left: 323px;
+        top: 22px;
+        overflow: visible;
+        --web-animation: fadein 0.3s ease-out;
+        --web-action-type: page;
+        --web-action-target: FR.html;
+        cursor: pointer;
+    }
+    #_cj {
+        position: relative;
+        width: 294px;
+        height: 39px;   
+        /*left: 41px;
+        top: 477px;*/
+        overflow: visible;
+        --web-animation: fadein 0.3s ease-out;
+        --web-action-type: page;
+        --web-action-target: HM.html;
+        cursor: pointer;
+        margin: 10px;
+    }
+    #_12_ck {
+        opacity: 0.998;
+        fill: rgba(255,235,71,1);
+    }
+    ._12_ck {
+        position: absolute;
+        overflow: visible;
+        width: 294px;
+        height: 38px;
+        left: 0px;
+        top: 0px;
+    }
+    #_cl {
+        opacity: 0.804;
+        left: 132px;
+        top: 8px;
+        position: absolute;
+        overflow: visible;
+        width: 31px;
+        white-space: nowrap;
+        text-align: center;
+        font-family: Noto Sans TC;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        color: rgba(0,0,0,1);
+    }
+    #_cm {
+        position: relative;
+        overflow: visible;
+        white-space: nowrap;
+        text-align: center;
+        font-family: Noto Sans TC;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        color: rgba(255,255,255,1);
+        letter-spacing: 0.5px;
+        margin: 10px;
+    }
+    #_cn {
+        position: relative;
+        overflow: visible;
+        white-space: nowrap;
+        text-align: right;
+        font-family: Noto Sans TC;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        color: rgb(255, 255, 255);
+        letter-spacing: 0.5px;
+        margin: 10px;
+    }
+    #_Fitness_Det {
+        opacity: 0.996;
+        /*left: 40px;
+        top: 444px;*/
+        position: relative;
+        overflow: visible;
+        width: 294px;
+        white-space: wrap;
+        line-height: 14px;
+        text-align: left;
+        font-family: Noto Sans TC;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 10px;
+        color: rgba(181,181,181,1);
+        letter-spacing: 0.3px;
+        margin: 10px;
+    }
+}
+
+/* 直式*/
+/* 如果使用者視窗寬度 <= 768px */
+@media screen and (max-width: 768px) {
+   
+  
+}
+    
+/* 直式 */
+/* 如果使用者視窗寬度介於 768px ~ 1024px */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .mediaViewInfo {
+        --web-view-name: RGT;
+        --web-view-id: RGT;
+        --web-scale-on-resize: true;
+        --web-center-horizontally: true;
+        --web-enable-deep-linking: true;
+    }
+    :root {
+        --web-view-ids: RGT;
+    }
+
+    #RGT {
+        position: static;
+        width: 100vw;
+        height: 100vh;
+        background-color: rgb(0, 0, 0);
+        overflow: hidden;
+    }
+    @keyframes fadein {
+
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+
+    }
+
+    input[type="date"]::-webkit-calendar-picker-indicator {
+        background: url(../picture/calnder.png)  left/100% no-repeat ;
+        color: rgba(179, 179, 179, 0);
+        opacity: 0.8
+    }
+
+    input[type="date"]::-webkit-calendar-picker-indicator:hover {
+        background: url(../picture/calnder.png) center/100% no-repeat;
+        opacity: 1
+    }
+    #style{
+        position: absolute; 
+        overflow: visible;
+        width: 294px;
+        height: 39px;
+    }
+    #box{
+        position: absolute;
+        width: 350px;
+        height: 500px;
+        display: flex; 
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        align-content: space-around;
+        justify-content: space-around;
+        /*  置中 */
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%) ;
+        background-color: rgba(0, 0, 0, 0.8);
+        border: 0px solid rgb(133, 133, 133);
+        border-radius: 10px;
+    }
+
+    #RGTbackground{
+        position: absolute;
+        width: 100vw;
+        height: 100vh;
+        overflow: visible;
+        background: url("../picture/frbackground.jpeg");
+        background-position: center center;
+        background-size:cover;
+    }
+
+
+    .margin {
+        margin: 10px;
+    }
+
+    #成為健身夥伴 {
+        /* left: 41px;
+        top: 188px; */
+        position: relative;
+        overflow: visible;
+        width: 271px;
+        white-space: nowrap;
+        text-align: center;
+        font-family: Noto Sans TC;
+        font-style: normal;
+        font-weight: lighter;
+        font-size: 40px;
+        color: rgba(255,255,255,1);
+        letter-spacing: 1.5px;
+    }
+    #文字敘述{
+        opacity: 0.996;
+        /* left: 41px;
+        top: 259px; */
+        position: relative;
+        overflow: visible;
+        width: 176px;
+        margin: 10px;
+        white-space: nowrap;
+        text-align: center;
+        font-family: Noto Sans TC;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        color: rgba(181,181,181,1);
+        letter-spacing: 0.3px;
+    }
+    #_1 {
+        position: absolute;
+        overflow: visible;
+        width: 25px;
+        height: 56px;
+        right: 5%;
+        top: 5%;
+        cursor: pointer;
+    }
+    #_12 {
+        opacity: 0.805;
+        fill: transparent;
+        stroke: rgba(255,255,255,1);
+        stroke-width: 1px;
+        stroke-linejoin: round;
+        stroke-linecap: butt;
+        stroke-miterlimit: 4;
+        shape-rendering: auto;
+    }
+    ._12 {
+        position: absolute;
+        overflow: visible;
+        width: 294px;
+        height: 39px;
+        left: 0px;
+        top: 0px;
+    }
+    #_bg {
+        opacity: 0.804;
+        left: 12px;
+        top: 8px;
+        position: absolute;
+        overflow: visible;
+        width: 91px;
+        white-space: nowrap;
+        text-align: left;
+        font-family: Noto Sans TC;
+        font-style: normal;
+        font-weight: lighter;
+        font-size: 15px;
+        color: rgba(255,255,255,1);
+    }
+
+    #_12_bi {
+        opacity: 0.805;
+        fill: transparent;
+        stroke: rgba(255,255,255,1);
+        stroke-width: 1px;
+        stroke-linejoin: round;
+        stroke-linecap: butt;
+        stroke-miterlimit: 4;
+        shape-rendering: auto;
+    }
+    ._12_bi {
+        position: absolute;
+        overflow: visible;
+        width: 294px;
+        height: 39px;
+        left: 0px;
+        top: 0px;
+    }
+    #_bj {
+        opacity: 0.804;
+        left: 12px;
+        top: 8px;
+        position: absolute;
+        overflow: visible;
+        width: 31px;
+        white-space: nowrap;
+        text-align: left;
+        font-family: Noto Sans TC;
+        font-style: normal;
+        font-weight: lighter;
+        font-size: 15px;
+        color: rgba(255,255,255,1);
+    }
+    #_12_bl {
+        opacity: 0.805;
+        fill: transparent;
+        stroke: rgba(255,255,255,1);
+        stroke-width: 1px;
+        stroke-linejoin: round;
+        stroke-linecap: butt;
+        stroke-miterlimit: 4;
+        shape-rendering: auto;
+    }
+    ._12_bl {
+        position: absolute;
+        overflow: visible;
+        width: 294px;
+        height: 39px;
+        left: 0px;
+        top: 0px;
+    }
+    #_bm {
+        opacity: 0.804;
+        left: 12px;
+        top: 8px;
+        position: absolute;
+        overflow: visible;
+        width: 91px;
+        white-space: nowrap;
+        text-align: left;
+        font-family: Noto Sans TC;
+        font-style: normal;
+        font-weight: lighter;
+        font-size: 15px;
+        color: rgba(255,255,255,1);
+    }
+    #_bq {
+        position: relative;
+        width: 91px;
+        height: 39px;
+        /* left: 41px;
+        top: 466px; */
+        overflow: visible;
+        margin: 0px 12px 0px 10px;
+    }
+    #textframe {
+        opacity: 0.805;
+        fill: transparent;
+        stroke: rgba(255,255,255,1);
+        stroke-width: 1px;
+        stroke-linejoin: round;
+        stroke-linecap: butt;
+        stroke-miterlimit: 4;
+        shape-rendering: auto;
+    }
+    .textframe1 {
+        position: relative;
+        overflow: visible;
+        width: 91px;
+        height: 39px;
+        left: 0px;
+        top: 0px;
+    }
+    #_bs {
+        opacity: 0.804;
+        left: 16px;
+        top: 8px;
+        position: absolute;
+        overflow: visible;
+        width: 31px;
+        white-space: nowrap;
+        text-align: left;
+        font-family: Noto Sans TC;
+        font-style: normal;
+        font-weight: lighter;
+        font-size: 15px;
+        color: rgba(255,255,255,1);
+    }
+    #whitetext{
+        opacity: 1;
+        position: absolute;
+        overflow: visible;
+        text-align: left;
+        font-family: Noto Sans TC;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        color:white;
+    }
+    #blacktext{
+        opacity: 1;
+        position: absolute;
+        overflow: visible;
+        text-align: left;
+        font-family: Noto Sans TC;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        color: rgb(0, 0, 0);
+    }
+    #_bt {
+        position: relative;
+        width: 181px;
+        height: 39px;
+        /* left: 154.5px;
+        top: 466px; */
+        overflow: visible;
+        margin: 0px 0px 0px 12px;
+    }
+    #_bv {
+        opacity: 0.804;
+        left: 12px;
+        top: 7.618px;
+        position: absolute;
+        overflow: visible;
+        width: 31px;
+        white-space: nowrap;
+        text-align: left;
+        font-family: Noto Sans TC;
+        font-style: normal;
+        font-weight: lighter;
+        font-size: 15px;
+        color: rgba(255,255,255,1);
+    }
+  
+    #勾選 {
+        position: absolute;
+        width: 254px;
+        height: 30px;
+        left: 40px;
+        overflow: visible;
+    }
+    #_3__1 {
+        position: absolute;
+        width: 29px;
+        height: 32px;
+        /* left: 41px;
+        top: 579px; */
+        overflow: visible;
+    }
+    #__bz {
+        opacity: 0.996;
+        left: 0px;
+        top: 0px;
+        position: absolute;
+        overflow: hidden;
+        width: 255px;
+        height: 38px;
+        text-align: left;
+        font-family: Noto Sans TC;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        color: rgba(181,181,181,1);
+        letter-spacing: 0.3px;
+    }
+    #_b {
+        position: relative;
+        width: 294px;
+        height: 40px;
+        /* left: 41px;
+        top: 634px; */
+        overflow: visible;
+        cursor: pointer;
+    }
+    #加入 {
+        opacity: 0.998;
+        fill: rgba(255,235,71,1);
+    }
+    ._12_b {
+        position: relative;
+        overflow: visible;
+        background-color: transparent;
+        width: 294px;
+        height: 39px;
+        left: 0px;
+        top: 0px;
+    }
+    #_ca {
+        opacity: 0.804;
+        left: 132px;
+        top: 8px;
+        position: absolute;
+        overflow: visible;
+        width: 31px;
+        white-space: nowrap;
+        text-align: center;
+        font-family: Noto Sans TC;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        color: rgba(0,0,0,1);
+    }
+    #已有帳號 {
+        position: relative;
+        overflow: visible;
+        white-space: nowrap;
+        text-align: center;
+        font-family: Noto Sans TC;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        color: rgba(255,255,255,1);
+        letter-spacing: 0.5px;
+        height: 25px;
+        /* left: 138px;
+        top: 684px; */
+        overflow: visible;
+    }
+
+    #_2__5 {
+        position: absolute;
+        width: 29px;
+        height: 32px;
+        left: 0px;
+        top: 0px;
+        overflow: visible;
+    }
+    .mediaViewInfo {
+        --web-view-name: FR;
+        --web-view-id: FR;
+        --web-scale-on-resize: true;
+        --web-center-horizontally: true;
+        --web-center-vertically: true;
+        --web-enable-deep-linking: true;
+    }
+    :root {
+        --web-view-ids: FR;
+    }
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        border: none;
+    }
+    #FR {
+        position: static;
+        width: 100vw;
+        height: 100vh;
+        background-repeat:no-repeat;
+        background-color: rgb(136, 136, 136);
+        overflow: visible;
+        --web-view-name: FR;
+        --web-view-id: FR;
+        --web-scale-on-resize: true;
+        --web-center-horizontally: true;
+        --web-center-vertically: true;
+        --web-enable-deep-linking: true;
+    }
+    #_22 {
+        position: absolute;
+        width: 100vw;
+        height: 100vh;
+        overflow: visible;
+        background: url("../picture/frbackground.jpeg");
+        background-position: center center;
+        background-size:cover;
+    }
+    #frbackground {
+        opacity: 1;
+        position: absolute;
+        width: 375px;
+        height: 812px;
+        left: 0px;
+        top: 0px;
+        overflow: visible;
+    }
+    /* #_10 {
+        opacity: 0.215;
+        fill: rgba(255,255,255,1);
+    }
+    ._10 {
+        overflow: visible;
+        position: absolute;
+        max-width: 100%;
+        max-height: 100%;
+        transform: matrix(1,0,0,1,0,0);
+    } */
+    #greybackground{
+        opacity: 0.215;
+        background-color: rgb(100, 100, 100);
+        overflow: visible;
+        position: absolute;
+        width: 100vw;
+        height: 100vh;
+    }
+    .centerandflex{
+        display: flex; 
+        width: 100%;
+        top: 70%;
+        position: relative;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        } 
+    .item {
+        margin: 10px;
+      }
+    #_3 {
+        position: relative;
+        width: 150px;
+        height: 53px;
+        /* left: 23px; */
+        /* top: 656px; */
+        overflow: visible;
+    }
+    #_10_ {
+        position: absolute;
+        width: 150px;
+        height: 53px;
+        left: 0px;
+        top: 0px;
+        overflow: visible;
+    }
+    #_4 {
+        position: absolute;
+        width: 150px;
+        height: 53px;
+        left: 0px;
+        top: 0px;
+        overflow: visible;
+    }
+    #_5 {
+        fill: transparent;
+        stroke: rgba(255,255,255,1);
+        stroke-width: 2px;
+        stroke-linejoin: miter;
+        stroke-linecap: butt;
+        stroke-miterlimit: 4;
+        shape-rendering: auto;
+    }
+    ._5 {
+        position: absolute;
+        overflow: visible;
+        width: 150px;
+        height: 53px;
+        left: 0px;
+        top: 0px;
+    }
+    #_ {
+        left: 55px;
+        top: 12px;
+        position: absolute;
+        overflow: visible;
+        width: 42px;
+        white-space: nowrap;
+        text-align: center;
+        font-family: Noto Sans TC;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        color: rgba(255,255,255,1);
+        letter-spacing: 0.5px;
+    }
+    #_ba {
+        position: relative;
+        width: 150px;
+        height: 53px;
+        /* left: 203px; */
+        /* top: 656px; */
+        overflow: visible;
+    }
+    #_4 {
+        position: absolute;
+        width: 150px;
+        height: 53px;
+        left: 0px;
+        top: 0px;
+        overflow: visible;
+    }
+    #_5_ {
+        fill: rgba(255,255,255,1);
+    }
+    ._5_ {
+        position: absolute;
+        overflow: visible;
+        width: 150px;
+        height: 53px;
+        left: 0px;
+        top: 0px;
+    }
+    #_bb {
+        left: 55px;
+        top: 12px;
+        position: absolute;
+        overflow: visible;
+        /* width: 42px; */
+        white-space: nowrap;
+        text-align: center;
+        font-family: Noto Sans TC;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        color: rgba(70,63,0,1);
+        letter-spacing: 0.5px;
+    }
+ 
+    #logo {
+        position: absolute;
+        width: 193px;
+        height: 145px;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%);
+        overflow: visible;
+    }
+    #textstyle{
+        position: relative; 
+        overflow: visible;
+        width: 294px;
+        height: 39px;
+        margin: 10px;
+    }
+    .mediaViewInfo {
+        --web-view-name: LG;
+        --web-view-id: LG;
+        --web-scale-on-resize: true;
+        --web-center-horizontally: true;
+        --web-enable-deep-linking: true;
+    }
+    :root {
+        --web-view-ids: LG;
+    }
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        border: none;
+    }
+    #style{
+        position: absolute; 
+        overflow: visible;
+        width: 294px;
+        height: 39px;
+    }
+    #lgbox{
+        position: absolute;
+        width: 350px;
+        height: 500px;
+        display: flex; 
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        align-content: space-around;
+        justify-content: space-around;
+        /*  置中 */
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%) ;
+        background-color: rgba(0, 0, 0, 0.8);
+        border: 0px solid rgb(133, 133, 133);
+        border-radius: 10px;
+    }
+    #LG {
+        position: static;
+        width: 100vw;
+        height: 100vh;
+        background-color: rgb(0, 0, 0);
+        overflow: hidden;
+        --web-view-name: LG;
+        --web-view-id: LG;
+        --web-scale-on-resize: true;
+        --web-center-horizontally: true;
+        --web-enable-deep-linking: true;
+    }
+    @keyframes fadein {
+
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+
+    }
+    #style{
+        position: absolute; 
+        overflow: visible;
+        width: 294px;
+        height: 39px;
+    } 
+    #__cb {
+    
+        position: static;
+        overflow: visible;
+        width: 100px;
+        white-space: nowrap;
+        text-align: center;
+        font-family: Noto Sans TC;
+        font-style: normal;
+        font-weight: lighter;
+        font-size: 40px;
+        color: rgb(255, 255, 255);
+        letter-spacing: 1.5px;
+        margin: 10px;
+    }
+    input {position: relative;
+        overflow: visible;
+        width: 294px;
+        height: 39px;
+        font-size: 13px;
+        background-color:transparent;
+        -webkit-text-fill-color: #ffffff;
+        padding: 10px;
+    }
+
+    #_cd {
+        position: relative;
+        width: 294px;
+        height: 39px;
+        /*left: 41px;
+        top: 310px;*/
+        overflow: visible;
+        margin: 10px;
+    }
+    #_12_cd {
+        opacity: 0.805;
+        fill: transparent;
+        stroke: rgba(255,255,255,1);
+        stroke-width: 1px;
+        stroke-linejoin: round;
+        stroke-linecap: butt;
+        stroke-miterlimit: 4;
+        shape-rendering: auto;
+    }
+    ._12_cd {
+        position: absolute;
+        overflow: visible;
+        width: 294px;
+        height: 39px;
+        left: 0px;
+        top: 0px;
+    }
+    /*
+    #_ce {
+        opacity: 0.804;
+        left: 12px;
+        top: 8px;
+        position: relative;
+        overflow: visible;
+        width: 100px;
+        white-space: nowrap;
+        text-align: left;
+        font-family: Noto Sans TC;
+        font-style: normal;
+        font-weight: lighter;
+        font-size: 15px;
+        color: rgba(255,255,255,1);
+        
+    }*/
+
+    #_6 {
+        position: relative;
+        width: 294px;
+        height: 38px;
+        /*left: 41px;
+        top: 367px*/
+        overflow: visible;
+        margin: 10px;
+    }
+    #_12_cg {
+        opacity: 0.805;
+        fill: transparent;
+        stroke: rgba(255,255,255,1);
+        stroke-width: 1px;
+        stroke-linejoin: round;
+        stroke-linecap: butt;
+        stroke-miterlimit: 4;
+        shape-rendering: auto;
+    }
+    ._12_cg {
+        position: absolute;
+        overflow: visible;
+        width: 294px;
+        height: 38px;
+        left: 0px;
+        top: 0px;
+    }
+    #_ch {
+        opacity: 0.804;
+        left: 12px;
+        top: 8px;
+        position: relative;
+        overflow: visible;
+        width: 31px;
+        white-space: nowrap;
+        text-align: center;
+        font-family: Noto Sans TC;
+        font-style: normal;
+        font-weight: lighter;
+        font-size: 15px;
+        color: rgba(255,255,255,1);
+    }
+    #_1_ci {
+        position: relative;
+        width: 25px;
+        height: 56px;
+        left: 323px;
+        top: 22px;
+        overflow: visible;
+        --web-animation: fadein 0.3s ease-out;
+        --web-action-type: page;
+        --web-action-target: FR.html;
+        cursor: pointer;
+    }
+    #_cj {
+        position: relative;
+        width: 294px;
+        height: 39px;   
+        /*left: 41px;
+        top: 477px;*/
+        overflow: visible;
+        --web-animation: fadein 0.3s ease-out;
+        --web-action-type: page;
+        --web-action-target: HM.html;
+        cursor: pointer;
+        margin: 10px;
+    }
+    #_12_ck {
+        opacity: 0.998;
+        fill: rgba(255,235,71,1);
+    }
+    ._12_ck {
+        position: absolute;
+        overflow: visible;
+        width: 294px;
+        height: 38px;
+        left: 0px;
+        top: 0px;
+    }
+    #_cl {
+        opacity: 0.804;
+        left: 132px;
+        top: 8px;
+        position: absolute;
+        overflow: visible;
+        width: 31px;
+        white-space: nowrap;
+        text-align: center;
+        font-family: Noto Sans TC;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        color: rgba(0,0,0,1);
+    }
+    #_cm {
+        position: relative;
+        overflow: visible;
+        white-space: nowrap;
+        text-align: center;
+        font-family: Noto Sans TC;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        color: rgba(255,255,255,1);
+        letter-spacing: 0.5px;
+        margin: 10px;
+    }
+    #_cn {
+        position: static;
+        overflow: visible;
+        white-space: nowrap;
+        text-align: right;
+        font-family: Noto Sans TC;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        color: rgb(255, 255, 255);
+        letter-spacing: 0.5px;
+        margin: 10px;
+    }
+    #_Fitness_Det {
+        opacity: 0.996;
+        /*left: 40px;
+        top: 444px;*/
+        position: relative;
+        overflow: visible;
+        width: 297px;
+        white-space: wrap;
+        line-height: 14px;
+        margin-top: -2px;
+        text-align: cen ter;
+        font-family: Noto Sans TC;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 10px;
+        color: rgba(181,181,181,1);
+        letter-spacing: 0.3px;
+        margin: 10px;
+    }
+
+}
+    
+/* 橫式 */
+/* 如果使用者視窗寬度 >= 1024px*/
+@media screen and (min-width: 1024px) {
+    .mediaViewInfo {
+        --web-view-name: RGT;
+        --web-view-id: RGT;
+        --web-scale-on-resize: true;
+        --web-center-horizontally: true;
+        --web-enable-deep-linking: true;
+    }
+    :root {
+        --web-view-ids: RGT;
+    }
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        border: none;
+    }
+    #RGT {
+        position: static;
+        width: 100vw;
+        height: 100vh;
+        background-color: rgb(0, 0, 0);
+        overflow: hidden;
+        --web-view-name: RGT;
+        --web-view-id: RGT;
+        --web-scale-on-resize: true;
+        --web-center-horizontally: true;
+        --web-enable-deep-linking: true; 
+    }
+    @keyframes fadein {
+
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+
+    }
+
+    input[type="date"]::-webkit-calendar-picker-indicator {
+        background: url(../picture/calnder.png)  left/100% no-repeat ;
+        color: rgba(179, 179, 179, 0);
+        opacity: 0.8
+    }
+
+    input[type="date"]::-webkit-calendar-picker-indicator:hover {
+        background: url(../picture/calnder.png) center/100% no-repeat;
+        opacity: 1
+    }
+    #style{
+        position: absolute; 
+        overflow: visible;
+        width: 294px;
+        height: 39px;
+    }
+    #box{
+        position: absolute;
+        width: 350px;
+        height: 500px;
+        display: flex; 
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        align-content: space-around;
+        justify-content: space-around;
+        /*  置中 */
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%) ;
+        background-color: rgba(0, 0, 0, 0.8);
+        border: 0px solid rgb(133, 133, 133);
+        border-radius: 10px;
+    }
+
+    #RGTbackground{
+        position: absolute;
+        width: 100vw;
+        height: 100vh;
+        overflow: visible;
+        background: url("../picture/frbackground.jpeg");
+        background-position: center center;
+        background-size:cover;
+    }
+
+    .margin {
+        margin: 10px;
+    }
+
+    #成為健身夥伴 {
+        position: relative;
+        overflow: visible;
+        width: 271px;
+        white-space: nowrap;
+        text-align: center;
+        font-family: Noto Sans TC;
+        font-style: normal;
+        font-weight: lighter;
+        font-size: 40px;
+        color: rgba(255,255,255,1);
+        letter-spacing: 1.5px;
+    }
+    #文字敘述{
+        opacity: 0.996;
+        /* left: 41px;
+        top: 259px; */
+        position: relative;
+        overflow: visible;
+        width: 176px;
+        margin: 10px;
+        white-space: nowrap;
+        text-align: center;
+        font-family: Noto Sans TC;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        color: rgba(181,181,181,1);
+        letter-spacing: 0.3px;
+    }
+    #_1 {
+        position: absolute;
+        overflow: visible;
+        width: 25px;
+        height: 56px;
+        right: 5%;
+        top: 5%;
+        cursor: pointer;
+    }
+    #_12 {
+        opacity: 0.805;
+        fill: transparent;
+        stroke: rgba(255,255,255,1);
+        stroke-width: 1px;
+        stroke-linejoin: round;
+        stroke-linecap: butt;
+        stroke-miterlimit: 4;
+        shape-rendering: auto;
+    }
+    ._12 {
+        position: absolute;
+        overflow: visible;
+        width: 294px;
+        height: 39px;
+        left: 0px;
+        top: 0px;
+    }
+    #_bg {
+        opacity: 0.804;
+        left: 12px;
+        top: 8px;
+        position: absolute;
+        overflow: visible;
+        width: 91px;
+        white-space: nowrap;
+        text-align: left;
+        font-family: Noto Sans TC;
+        font-style: normal;
+        font-weight: lighter;
+        font-size: 15px;
+        color: rgba(255,255,255,1);
+    }
+
+    #_12_bi {
+        opacity: 0.805;
+        fill: transparent;
+        stroke: rgba(255,255,255,1);
+        stroke-width: 1px;
+        stroke-linejoin: round;
+        stroke-linecap: butt;
+        stroke-miterlimit: 4;
+        shape-rendering: auto;
+    }
+    ._12_bi {
+        position: absolute;
+        overflow: visible;
+        width: 294px;
+        height: 39px;
+        left: 0px;
+        top: 0px;
+    }
+    #_bj {
+        opacity: 0.804;
+        left: 12px;
+        top: 8px;
+        position: absolute;
+        overflow: visible;
+        width: 31px;
+        white-space: nowrap;
+        text-align: left;
+        font-family: Noto Sans TC;
+        font-style: normal;
+        font-weight: lighter;
+        font-size: 15px;
+        color: rgba(255,255,255,1);
+    }
+    #_12_bl {
+        opacity: 0.805;
+        fill: transparent;
+        stroke: rgba(255,255,255,1);
+        stroke-width: 1px;
+        stroke-linejoin: round;
+        stroke-linecap: butt;
+        stroke-miterlimit: 4;
+        shape-rendering: auto;
+    }
+    ._12_bl {
+        position: absolute;
+        overflow: visible;
+        width: 294px;
+        height: 39px;
+        left: 0px;
+        top: 0px;
+    }
+    #_bm {
+        opacity: 0.804;
+        left: 12px;
+        top: 8px;
+        position: absolute;
+        overflow: visible;
+        width: 91px;
+        white-space: nowrap;
+        text-align: left;
+        font-family: Noto Sans TC;
+        font-style: normal;
+        font-weight: lighter;
+        font-size: 15px;
+        color: rgba(255,255,255,1);
+    }
+    #_bq {
+        position: relative;
+        width: 91px;
+        height: 39px;
+        /* left: 41px;
+        top: 466px; */
+        overflow: visible;
+        margin: 0px 12px 0px 10px;
+    }
+    #textframe {
+        opacity: 0.805;
+        fill: transparent;
+        stroke: rgba(255,255,255,1);
+        stroke-width: 1px;
+        stroke-linejoin: round;
+        stroke-linecap: butt;
+        stroke-miterlimit: 4;
+        shape-rendering: auto;
+    }
+    .textframe1 {
+        position: relative;
+        overflow: visible;
+        width: 91px;
+        height: 39px;
+        left: 0px;
+        top: 0px;
+    }
+    #_bs {
+        opacity: 0.804;
+        left: 16px;
+        top: 8px;
+        position: absolute;
+        overflow: visible;
+        width: 31px;
+        white-space: nowrap;
+        text-align: left;
+        font-family: Noto Sans TC;
+        font-style: normal;
+        font-weight: lighter;
+        font-size: 15px;
+        color: rgba(255,255,255,1);
+    }
+    #whitetext{
+        opacity: 1;
+        position: absolute;
+        overflow: visible;
+        text-align: left;
+        font-family: Noto Sans TC;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        color:white;
+    }
+    #blacktext{
+        opacity: 1;
+        position: absolute;
+        overflow: visible;
+        text-align: left;
+        font-family: Noto Sans TC;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        color: rgb(0, 0, 0);
+    }
+    #_bt {
+        position: relative;
+        width: 181px;
+        height: 39px;
+        /* left: 154.5px;
+        top: 466px; */
+        overflow: visible;
+        margin: 0px 0px 0px 12px;
+    }
+    #_bv {
+        opacity: 0.804;
+        left: 12px;
+        top: 7.618px;
+        position: absolute;
+        overflow: visible;
+        width: 31px;
+        white-space: nowrap;
+        text-align: left;
+        font-family: Noto Sans TC;
+        font-style: normal;
+        font-weight: lighter;
+        font-size: 15px;
+        color: rgba(255,255,255,1);
+    }
+  
+    #勾選 {
+        position: absolute;
+        width: 254px;
+        height: 30px;
+        left: 40px;
+        overflow: visible;
+    }
+    #_3__1 {
+        position: absolute;
+        width: 29px;
+        height: 32px;
+        /* left: 41px;
+        top: 579px; */
+        overflow: visible;
+    }
+    #__bz {
+        opacity: 0.996;
+        left: 0px;
+        top: 0px;
+        position: absolute;
+        overflow: hidden;
+        width: 255px;
+        height: 38px;
+        text-align: left;
+        font-family: Noto Sans TC;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        color: rgba(181,181,181,1);
+        letter-spacing: 0.3px;
+    }
+    #_b {
+        position: relative;
+        width: 294px;
+        height: 40px;
+        /* left: 41px;
+        top: 634px; */
+        overflow: visible;
+        cursor: pointer;
+    }
+    #加入 {
+        opacity: 0.998;
+        fill: rgba(255,235,71,1);
+    }
+    ._12_b {
+        position: relative;
+        overflow: visible;
+        background-color: transparent;
+        width: 294px;
+        height: 39px;
+        left: 0px;
+        top: 0px;
+    }
+    #_ca {
+        opacity: 0.804;
+        left: 132px;
+        top: 8px;
+        position: absolute;
+        overflow: visible;
+        width: 31px;
+        white-space: nowrap;
+        text-align: center;
+        font-family: Noto Sans TC;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        color: rgba(0,0,0,1);
+    }
+    #已有帳號 {
+        position: relative;
+        overflow: visible;
+        white-space: nowrap;
+        text-align: center;
+        font-family: Noto Sans TC;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        color: rgba(255,255,255,1);
+        letter-spacing: 0.5px;
+        height: 25px;
+        /* left: 138px;
+        top: 684px; */
+        overflow: visible;
+    }
+
+    #_2__5 {
+        position: absolute;
+        width: 29px;
+        height: 32px;
+        left: 0px;
+        top: 0px;
+        overflow: visible;
+    }
+
+    .mediaViewInfo {
+        --web-view-name: FR;
+        --web-view-id: FR;
+        --web-scale-on-resize: true;
+        --web-center-horizontally: true;
+        --web-center-vertically: true;
+        --web-enable-deep-linking: true;
+    }
+    :root {
+        --web-view-ids: FR;
+    }
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        border: none;
+    }
+    #FR {
+        position: static;
+        width: 100vw;
+        height: 100vh;
+        background-repeat:no-repeat;
+        background-color: rgb(136, 136, 136);
+        overflow: visible;
+        --web-view-name: FR;
+        --web-view-id: FR;
+        --web-scale-on-resize: true;
+        --web-center-horizontally: true;
+        --web-center-vertically: true;
+        --web-enable-deep-linking: true;
+    }
+    #_22 {
+        position: absolute;
+        width: 100vw;
+        height: 100vh;
+        overflow: visible;
+        background: url("../picture/frbackground.jpeg");
+        background-position: center center;
+        background-size:cover;
+    }
+    #frbackground {
+        opacity: 1;
+        position: absolute;
+        width: 375px;
+        height: 812px;
+        left: 0px;
+        top: 0px;
+        overflow: visible;
+    }
+    /* #_10 {
+        opacity: 0.215;
+        fill: rgba(255,255,255,1);
+    }
+    ._10 {
+        overflow: visible;
+        position: absolute;
+        max-width: 100%;
+        max-height: 100%;
+        transform: matrix(1,0,0,1,0,0);
+    } */
+    #greybackground{
+        opacity: 0.215;
+        background-color: rgb(100, 100, 100);
+        overflow: visible;
+        position: absolute;
+        width: 100vw;
+        height: 100vh;
+    }
+    .centerandflex{
+        display: flex; 
+        width: 100%;
+        top: 70%;
+        position: relative;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        } 
+    .item {
+        margin: 10px;
+      }
+    #_3 {
+        position: relative;
+        width: 150px;
+        height: 53px;
+        /* left: 23px; */
+        /* top: 656px; */
+        overflow: visible;
+    }
+    #_10_ {
+        position: absolute;
+        width: 150px;
+        height: 53px;
+        left: 0px;
+        top: 0px;
+        overflow: visible;
+    }
+    #_4 {
+        position: absolute;
+        width: 150px;
+        height: 53px;
+        left: 0px;
+        top: 0px;
+        overflow: visible;
+    }
+    #_5 {
+        fill: transparent;
+        stroke: rgba(255,255,255,1);
+        stroke-width: 2px;
+        stroke-linejoin: miter;
+        stroke-linecap: butt;
+        stroke-miterlimit: 4;
+        shape-rendering: auto;
+    }
+    ._5 {
+        position: absolute;
+        overflow: visible;
+        width: 150px;
+        height: 53px;
+        left: 0px;
+        top: 0px;
+    }
+    #_ {
+        left: 55px;
+        top: 12px;
+        position: absolute;
+        overflow: visible;
+        width: 42px;
+        white-space: nowrap;
+        text-align: center;
+        font-family: Noto Sans TC;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        color: rgba(255,255,255,1);
+        letter-spacing: 0.5px;
+    }
+    #_ba {
+        position: relative;
+        width: 150px;
+        height: 53px;
+        /* left: 203px; */
+        /* top: 656px; */
+        overflow: visible;
+    }
+    #_4 {
+        position: absolute;
+        width: 150px;
+        height: 53px;
+        left: 0px;
+        top: 0px;
+        overflow: visible;
+    }
+    #_5_ {
+        fill: rgba(255,255,255,1);
+    }
+    ._5_ {
+        position: absolute;
+        overflow: visible;
+        width: 150px;
+        height: 53px;
+        left: 0px;
+        top: 0px;
+    }
+    #_bb {
+        left: 55px;
+        top: 12px;
+        position: absolute;
+        overflow: visible;
+        /* width: 42px; */
+        white-space: nowrap;
+        text-align: center;
+        font-family: Noto Sans TC;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        color: rgba(70,63,0,1);
+        letter-spacing: 0.5px;
+    }
+ 
+    #logo {
+        position: absolute;
+        width: 20vw;
+        max-width: 220px;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%);
+        overflow: visible;
+    }
+    #textstyle{
+        position: relative; 
+        overflow: visible;
+        width: 294px;
+        height: 39px;
+        margin: 10px;
+    }
+    .mediaViewInfo {
+        --web-view-name: LG;
+        --web-view-id: LG;
+        --web-scale-on-resize: true;
+        --web-center-horizontally: true;
+        --web-enable-deep-linking: true;
+    }
+    :root {
+        --web-view-ids: LG;
+    }
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        border: none;
+    }
+    #style{
+        position: absolute; 
+        overflow: visible;
+        width: 294px;
+        height: 39px;
+    }
+    #lgbox{
+        position: absolute;
+        width: 350px;
+        height: 500px;
+        display: flex; 
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        align-content: space-around;
+        justify-content: space-around;
+        /*  置中 */
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%) ;
+        background-color: rgba(0, 0, 0, 0.8);
+        border: 0px solid rgb(133, 133, 133);
+        border-radius: 10px;
+    }
+    #LG {
+        position: static;
+        width: 100vw;
+        height: 100vh;
+        background-color: rgb(0, 0, 0);
+        overflow: hidden;
+        --web-view-name: LG;
+        --web-view-id: LG;
+        --web-scale-on-resize: true;
+        --web-center-horizontally: true;
+        --web-enable-deep-linking: true;
+    }
+    @keyframes fadein {
+
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+
+    }
+    #style{
+        position: absolute; 
+        overflow: visible;
+        width: 294px;
+        height: 39px;
+    } 
+
+    #__cb {
+        position: static;
+        overflow: visible;
+        width: 100px;
+        white-space: nowrap;
+        text-align: center;
+        font-family: Noto Sans TC;
+        font-style: normal;
+        font-weight: lighter;
+        font-size: 40px;
+        color: rgb(255, 255, 255);
+        letter-spacing: 1.5px;
+        margin: 10px;
+    }
+    input {position: relative;
+        overflow: visible;
+        width: 294px;
+        height: 39px;
+        font-size: 13px;
+        background-color:transparent;
+        -webkit-text-fill-color: #ffffff;
+        padding: 10px;
+    }
+
+    #_cd {
+        position: relative;
+        width: 294px;
+        height: 39px;
+        /*left: 41px;
+        top: 310px;*/
+        overflow: visible;
+        margin: 10px;
+    }
+    #_12_cd {
+        opacity: 0.805;
+        fill: transparent;
+        stroke: rgba(255,255,255,1);
+        stroke-width: 1px;
+        stroke-linejoin: round;
+        stroke-linecap: butt;
+        stroke-miterlimit: 4;
+        shape-rendering: auto;
+    }
+    ._12_cd {
+        position: absolute;
+        overflow: visible;
+        width: 294px;
+        height: 39px;
+        left: 0px;
+        top: 0px;
+    }
+    /*
+    #_ce {
+        opacity: 0.804;
+        left: 12px;
+        top: 8px;
+        position: relative;
+        overflow: visible;
+        width: 100px;
+        white-space: nowrap;
+        text-align: left;
+        font-family: Noto Sans TC;
+        font-style: normal;
+        font-weight: lighter;
+        font-size: 15px;
+        color: rgba(255,255,255,1);
+        
+    }*/
+
+    #_6 {
+        position: relative;
+        width: 294px;
+        height: 38px;
+        /*left: 41px;
+        top: 367px*/
+        overflow: visible;
+        margin: 10px;
+    }
+    #_12_cg {
+        opacity: 0.805;
+        fill: transparent;
+        stroke: rgba(255,255,255,1);
+        stroke-width: 1px;
+        stroke-linejoin: round;
+        stroke-linecap: butt;
+        stroke-miterlimit: 4;
+        shape-rendering: auto;
+    }
+    ._12_cg {
+        position: absolute;
+        overflow: visible;
+        width: 294px;
+        height: 38px;
+        left: 0px;
+        top: 0px;
+    }
+    #_ch {
+        opacity: 0.804;
+        left: 12px;
+        top: 8px;
+        position: relative;
+        overflow: visible;
+        width: 31px;
+        white-space: nowrap;
+        text-align: center;
+        font-family: Noto Sans TC;
+        font-style: normal;
+        font-weight: lighter;
+        font-size: 15px;
+        color: rgba(255,255,255,1);
+    }
+    #_1_ci {
+        position: relative;
+        width: 25px;
+        height: 56px;
+        left: 323px;
+        top: 22px;
+        overflow: visible;
+        --web-animation: fadein 0.3s ease-out;
+        --web-action-type: page;
+        --web-action-target: FR.html;
+        cursor: pointer;
+    }
+    #_cj {
+        position: relative;
+        width: 294px;
+        height: 39px;   
+        /*left: 41px;
+        top: 477px;*/
+        overflow: visible;
+        --web-animation: fadein 0.3s ease-out;
+        --web-action-type: page;
+        --web-action-target: HM.html;
+        cursor: pointer;
+        margin: 10px;
+    }
+    #_12_ck {
+        opacity: 0.998;
+        fill: rgba(255,235,71,1);
+    }
+    ._12_ck {
+        position: absolute;
+        overflow: visible;
+        width: 294px;
+        height: 38px;
+        left: 0px;
+        top: 0px;
+    }
+    #_cl {
+        opacity: 0.804;
+        left: 132px;
+        top: 8px;
+        position: absolute;
+        overflow: visible;
+        width: 31px;
+        white-space: nowrap;
+        text-align: center;
+        font-family: Noto Sans TC;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        color: rgba(0,0,0,1);
+    }
+    #_cm {
+        /*left: 132px;
+        top: 533px;*/
+        position: relative;
+        overflow: visible;
+    
+        white-space: nowrap;
+        text-align: center;
+        font-family: Noto Sans TC;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        color: rgba(255,255,255,1);
+        letter-spacing: 0.5px;
+        margin: 10px;
+    }
+    #_cn {
+        /*left: 273px;
+        top: 417px;*/
+        position: static;
+        overflow: visible;
+        
+        white-space: nowrap;
+        text-align: right;
+        font-family: Noto Sans TC;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        color: rgb(255, 255, 255);
+        letter-spacing: 0.5px;
+        margin: 10px;
+    }
+    #_Fitness_Det {
+        opacity: 0.996;
+        /*left: 40px;
+        top: 444px;*/
+        position: relative;
+        overflow: visible;
+        width: 297px;
+        white-space: wrap;
+        line-height: 14px;
+        margin-top: -2px;
+        text-align: cen ter;
+        font-family: Noto Sans TC;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 10px;
+        color: rgba(181,181,181,1);
+        letter-spacing: 0.3px;
+        margin: 10px;
+    }
+
+}

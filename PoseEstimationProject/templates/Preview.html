@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preview</title>
+    <style>
+
+        *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        border: none;
+        }
+        body{
+          position: static; 
+          width: 100vw;
+          height: 100vh; 
+          background-position: center center;
+          background-size:cover;
+          overflow: hidden;
+          /* background-image: url({{ url_for('static', filename='frbackground.jpg') }}); */
+          
+          background-image: url({{url_for('static',filename='frbackground.jpg')}});
+          /* filter: blur(5px); */
+
+        }
+        #box{
+        position: absolute;
+        width: fit-content;
+        height: max-content;
+        display: flex; 
+        /*  置中 */
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%) ;
+        /* background-color: yellowgreen; */
+        }
+        #box2{
+        position: absolute;
+        width: 30%;
+        height: 30%;
+        display: flex; 
+        visibility:visible;
+        /*  置中 */
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%) ;
+        /* background-color: yellowgreen; */
+        }
+        #scanqrcode{
+        position: absolute;
+
+    }
+      </style>
+</head>
+<body>
+
+  <div id ="box2">
+    <img src= "{{url_for('static', filename='preview.png')}}"   >
+  </div>
+
+  <div id="box">
+    <img src="{{ url_for('video_feed') }}">
+    <!-- <img src="preview.png"> -->
+  </div>
+    
+
+</body>
+</html>
