@@ -8,7 +8,7 @@ Fitness-detect健身偵探
 ## 檔案為Front end(前端code),PoseEstimationProject,Demo
 Front end 部分為網頁前端，包括html、css、js、php檔案。主要內容是使用者介面，我們採用RWD網頁架構，讓不同裝置的使用者都可以去使用。網頁的頁面包刮開始運動QRODE、日歷(可以去看過往的運動歷程、次數、影片)、計算BMI小工具、遊玩遊戲QRCODE、使用者登入介面、設定運動目標、主畫面。
 PoseEstimationProject 部分為系統的後端。使用python語言做開發，透過blazePose模型為主軸應用在健身的影像辨識中。檔案包誇掃描QRCODE做使用者登入、識別健身姿勢、健身小遊戲、連接SQL。
-Demo 為一些blazePose模型應用於我們系統後的一些影片展示。包括辨識運動的動作、運動小遊戲。
+Demo 為一些blazePose模型應用於我們系統後的一些影片展示。包括實際使用歷程、辨識運動的動作、運動小遊戲。
 
 ## 開發工具、環境
 Anaconda3（Python）
@@ -30,8 +30,16 @@ blazePose模型為一款人體姿勢感測方法，是利用機器學習推測�
 運動姿態辨識
 
 ![1_AdobeExpress](https://github.com/dfg47ofgt/fitness-detect/assets/79782178/84270300-9a8c-4255-a8a6-19fe3762c578)
+![運動姿態辨識_AdobeExpress](https://github.com/dfg47ofgt/fitness-detect/assets/79782178/fd0d3ab1-dc10-4f00-8a9e-d2643464ffb1)
 
 健身挑戰小遊戲
+
+![60秒挑戰_Trim_AdobeExpress](https://github.com/dfg47ofgt/fitness-detect/assets/79782178/65225010-3c86-4a78-b070-1bf68f40f40f)
+![極限挑戰new_Trim_AdobeExpress](https://github.com/dfg47ofgt/fitness-detect/assets/79782178/d6c98fc7-0b79-43d8-b92b-77d3e8d8a519)
+
+
+
+
 
 
 
