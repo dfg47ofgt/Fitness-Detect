@@ -32,17 +32,19 @@ Fitness-detect健身偵探是一款專為自主重量訓練使用者設計的健
 
 
 ## Demo
-運動姿態辨識
+**運動姿態辨識**
 
 ![1_AdobeExpress](https://github.com/dfg47ofgt/fitness-detect/assets/79782178/84270300-9a8c-4255-a8a6-19fe3762c578)
 ![運動姿態辨識_AdobeExpress](https://github.com/dfg47ofgt/fitness-detect/assets/79782178/fd0d3ab1-dc10-4f00-8a9e-d2643464ffb1)
 
-使用者介面
+**使用者介面**
 
 ![前端1_resize](https://github.com/dfg47ofgt/Fitness-Detect/assets/79782178/2dda39db-7c22-46ef-8fa2-fff8c9cae2de)
+![前端2_resize](https://github.com/dfg47ofgt/Fitness-Detect/assets/79782178/92ef904d-052c-43e9-9f56-94bbfe1ede0a)
 
 
-健身挑戰小遊戲
+
+**健身挑戰小遊戲**
 
 ![60秒挑戰_Trim_AdobeExpress](https://github.com/dfg47ofgt/fitness-detect/assets/79782178/65225010-3c86-4a78-b070-1bf68f40f40f)
 ![極限挑戰new_Trim_AdobeExpress](https://github.com/dfg47ofgt/fitness-detect/assets/79782178/d6c98fc7-0b79-43d8-b92b-77d3e8d8a519)
